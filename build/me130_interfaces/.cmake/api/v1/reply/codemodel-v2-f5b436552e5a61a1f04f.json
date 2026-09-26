@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b37e9210e653193ba5fd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "me130_interfaces__py",
+					"jsonFile" : "directory-me130_interfaces__py-803f2544a8bea712008f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces/me130_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "me130_interfaces__rs",
+					"jsonFile" : "directory-me130_interfaces__rs-2b127ba06971374b7e89.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces/me130_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "me130_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_me130_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_me130_interfaces_egg-c216c18ac37ec70ab2e7.json",
+					"name" : "ament_cmake_python_build_me130_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_me130_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_me130_interfaces-a88d105cd50a14019d75.json",
+					"name" : "ament_cmake_python_copy_me130_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "me130_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-me130_interfaces-a335a2c58c0c7c263f7f.json",
+					"name" : "me130_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "me130_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-me130_interfaces__cpp-8cd9d9dd6ba9c0363a31.json",
+					"name" : "me130_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "me130_interfaces__py::@5413a012fbafac0c910e",
+					"jsonFile" : "target-me130_interfaces__py-4d6341ed33e898d05500.json",
+					"name" : "me130_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "me130_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-me130_interfaces__rosidl_generator_c-39cb1577323f5ea031e9.json",
+					"name" : "me130_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "me130_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-me130_interfaces__rosidl_generator_py-35578116a184b46a4660.json",
+					"name" : "me130_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "me130_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-me130_interfaces__rosidl_generator_type_description-022385f6edd186003ec2.json",
+					"name" : "me130_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "me130_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-me130_interfaces__rosidl_typesupport_c-b36c643b66c65d83607d.json",
+					"name" : "me130_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "me130_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-me130_interfaces__rosidl_typesupport_cpp-e1d414564cff9e5ddd6f.json",
+					"name" : "me130_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "me130_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-me130_interfaces__rosidl_typesupport_fastrtps_c-966a66693474eb277fd5.json",
+					"name" : "me130_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "me130_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-me130_interfaces__rosidl_typesupport_fastrtps_cpp-910bf18d5a646accea4c.json",
+					"name" : "me130_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "me130_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-me130_interfaces__rosidl_typesupport_introspection_c-771455a833e1e1114c88.json",
+					"name" : "me130_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "me130_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-me130_interfaces__rosidl_typesupport_introspection_cpp-5b8424d8e299bf0a6966.json",
+					"name" : "me130_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "me130_interfaces__rs::@69fb38b090e10612aa58",
+					"jsonFile" : "target-me130_interfaces__rs-cecf0b90fc31f6deac3a.json",
+					"name" : "me130_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "me130_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-me130_interfaces_s__rosidl_typesupport_c-6465bab460c47918ade4.json",
+					"name" : "me130_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "me130_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-me130_interfaces_s__rosidl_typesupport_fastrtps_c-c98c0abc81462f7d40ed.json",
+					"name" : "me130_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "me130_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-me130_interfaces_s__rosidl_typesupport_introspection_c-2bfbeb79a003102bc1b0.json",
+					"name" : "me130_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "me130_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-me130_interfaces_uninstall-c652a516cee742f3c2f7.json",
+					"name" : "me130_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f3b9a17e9e0d58e1a4f5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces",
+		"source" : "/home/pontryagin/me130_lab/ros2_ws/src/me130_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,4 @@
+[01m[K/home/pontryagin/me130_lab/ros2_ws/src/me130_pendulum/src/motor_characterization_node.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> MotorCharacterizationNode::[01;32m[Ksweep[m[K(int, int)[m[K’:
+[01m[K/home/pontryagin/me130_lab/ros2_ws/src/me130_pendulum/src/motor_characterization_node.cpp:108:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+  108 |     [01;36m[K{[m[K
+      |     [01;36m[K^[m[K

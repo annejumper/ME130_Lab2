@@ -1,0 +1,4 @@
+source;share/me130_pendulum/local_setup.bash
+source;share/me130_pendulum/local_setup.dsv
+source;share/me130_pendulum/local_setup.sh
+source;share/me130_pendulum/local_setup.zsh

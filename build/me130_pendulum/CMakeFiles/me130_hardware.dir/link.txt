@@ -1,0 +1,2 @@
+/usr/bin/ar qc libme130_hardware.a CMakeFiles/me130_hardware.dir/src/hardware.cpp.o
+/usr/bin/ranlib libme130_hardware.a

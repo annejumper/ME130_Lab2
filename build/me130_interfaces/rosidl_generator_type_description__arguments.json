@@ -1,0 +1,13 @@
+{
+  "package_name": "me130_interfaces",
+  "output_dir": "/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces/rosidl_generator_type_description/me130_interfaces",
+  "idl_tuples": [
+    "/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces/rosidl_adapter/me130_interfaces:msg/PendulumAngle.idl",
+    "/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces/rosidl_adapter/me130_interfaces:msg/EncoderState.idl",
+    "/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces/rosidl_adapter/me130_interfaces:msg/MotorCommand.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

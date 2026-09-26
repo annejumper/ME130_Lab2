@@ -1,0 +1,73 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces/me130_interfaces__rs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "me130_interfaces__rs::@69fb38b090e10612aa58",
+	"name" : "me130_interfaces__rs",
+	"paths" : 
+	{
+		"build" : "me130_interfaces__rs",
+		"source" : "/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces/me130_interfaces__rs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces/me130_interfaces__rs/CMakeFiles/me130_interfaces__rs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces/me130_interfaces__rs/CMakeFiles/me130_interfaces__rs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces/rosidl_generator_rs/me130_interfaces/rust/src/lib.rs.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

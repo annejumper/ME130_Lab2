@@ -1,0 +1,160 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9551d72986def5eb4b0a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "me130_pendulum",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_node-8d2586f9544e239e5821.json",
+					"name" : "controller_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "encoder_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-encoder_node-bbf783724c1e38435a8b.json",
+					"name" : "encoder_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_node-aea0c2e0f97c704309e5.json",
+					"name" : "imu_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "keyboard_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-keyboard_node-c5386960d3240cd749ae.json",
+					"name" : "keyboard_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "logger_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-logger_node-a323df821045226f9101.json",
+					"name" : "logger_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "me130_hardware::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-me130_hardware-57eb937d33f1b7db1fac.json",
+					"name" : "me130_hardware",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "me130_pendulum_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-me130_pendulum_uninstall-c341553118eba7c6862d.json",
+					"name" : "me130_pendulum_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_characterization_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_characterization_node-dfc43b60e94fcd70bc54.json",
+					"name" : "motor_characterization_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_node-41ca35215f51ea02d416.json",
+					"name" : "motor_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sine_sweep_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sine_sweep_node-df4c5fb6fea78e1e08b7.json",
+					"name" : "sine_sweep_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "step_sequence_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-step_sequence_node-f1beb3ce9d4c609ddc6c.json",
+					"name" : "step_sequence_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8b158e2b0ee01ff98fe1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pontryagin/me130_lab/ros2_ws/build/me130_pendulum",
+		"source" : "/home/pontryagin/me130_lab/ros2_ws/src/me130_pendulum"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

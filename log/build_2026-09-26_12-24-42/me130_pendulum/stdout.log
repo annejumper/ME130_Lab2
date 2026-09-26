@@ -1,0 +1,108 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_srvs: 5.3.8 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found me130_interfaces: 1.0.0 (/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake)
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done (6.1s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/pontryagin/me130_lab/ros2_ws/build/me130_pendulum
+[  5%] [32mBuilding CXX object CMakeFiles/me130_hardware.dir/src/hardware.cpp.o[0m
+[ 10%] [32m[1mLinking CXX static library libme130_hardware.a[0m
+[ 10%] Built target me130_hardware
+[ 15%] [32mBuilding CXX object CMakeFiles/encoder_node.dir/src/encoder_node.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/imu_node.dir/src/imu_node.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/motor_node.dir/src/motor_node.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller_node.cpp.o[0m
+[ 35%] [32m[1mLinking CXX executable encoder_node[0m
+[ 35%] Built target encoder_node
+[ 40%] [32mBuilding CXX object CMakeFiles/step_sequence_node.dir/src/step_sequence_node.cpp.o[0m
+[ 45%] [32m[1mLinking CXX executable imu_node[0m
+[ 45%] Built target imu_node
+[ 50%] [32mBuilding CXX object CMakeFiles/sine_sweep_node.dir/src/sine_sweep_node.cpp.o[0m
+[ 55%] [32m[1mLinking CXX executable motor_node[0m
+[ 55%] Built target motor_node
+[ 60%] [32mBuilding CXX object CMakeFiles/motor_characterization_node.dir/src/motor_characterization_node.cpp.o[0m
+[ 65%] [32m[1mLinking CXX executable controller_node[0m
+[ 65%] Built target controller_node
+[ 70%] [32mBuilding CXX object CMakeFiles/logger_node.dir/src/logger_node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable step_sequence_node[0m
+[ 75%] Built target step_sequence_node
+[ 80%] [32mBuilding CXX object CMakeFiles/keyboard_node.dir/src/keyboard_node.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable sine_sweep_node[0m
+[ 85%] Built target sine_sweep_node
+[ 90%] [32m[1mLinking CXX executable motor_characterization_node[0m
+[ 90%] Built target motor_characterization_node
+[ 95%] [32m[1mLinking CXX executable keyboard_node[0m
+[ 95%] Built target keyboard_node
+[100%] [32m[1mLinking CXX executable logger_node[0m
+[100%] Built target logger_node
+-- Install configuration: ""
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/libme130_hardware.a
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/imu_node
+-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/imu_node" to ""
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/encoder_node
+-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/encoder_node" to ""
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/motor_node
+-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/motor_node" to ""
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/controller_node
+-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/controller_node" to ""
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/step_sequence_node
+-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/step_sequence_node" to ""
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/sine_sweep_node
+-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/sine_sweep_node" to ""
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/motor_characterization_node
+-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/motor_characterization_node" to ""
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/logger_node
+-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/logger_node" to ""
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/keyboard_node
+-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/keyboard_node" to ""
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/launch
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/launch/step_response.launch.py
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/launch/motor_characterization.launch.py
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/launch/balance.launch.py
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/launch/frequency_response.launch.py
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/step_response.py
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/freq_response.py
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/plot_characterization.py
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/include
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/include/me130_pendulum
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/include/me130_pendulum/hardware.hpp
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/ament_index/resource_index/package_run_dependencies/me130_pendulum
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/ament_index/resource_index/parent_prefix_path/me130_pendulum
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/environment/ament_prefix_path.sh
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/environment/ament_prefix_path.dsv
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/environment/path.sh
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/environment/path.dsv
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/local_setup.bash
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/local_setup.sh
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/local_setup.zsh
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/local_setup.dsv
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/package.dsv
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/ament_index/resource_index/packages/me130_pendulum
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/cmake/me130_pendulumConfig.cmake
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/cmake/me130_pendulumConfig-version.cmake
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/package.xml

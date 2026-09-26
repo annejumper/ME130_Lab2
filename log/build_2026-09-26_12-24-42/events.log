@@ -1,0 +1,2246 @@
+[0.000000] (-) TimerEvent: {}
+[0.000459] (me130_interfaces) JobQueued: {'identifier': 'me130_interfaces', 'dependencies': OrderedDict()}
+[0.001082] (me130_pendulum) JobQueued: {'identifier': 'me130_pendulum', 'dependencies': OrderedDict({'me130_interfaces': '/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces'})}
+[0.001818] (me130_interfaces) JobStarted: {'identifier': 'me130_interfaces'}
+[0.046644] (me130_interfaces) JobProgress: {'identifier': 'me130_interfaces', 'progress': 'cmake'}
+[0.048817] (me130_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/pontryagin/me130_lab/ros2_ws/src/me130_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces'], 'cwd': '/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pontryagin', 'SSH_CLIENT': '10.243.37.174 51127 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/pontryagin', 'OLDPWD': '/home/pontryagin', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pontryagin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1001', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.243.37.174 51127 10.247.137.192 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[0.099367] (-) TimerEvent: {}
+[0.200263] (-) TimerEvent: {}
+[0.301179] (-) TimerEvent: {}
+[0.402105] (-) TimerEvent: {}
+[0.502840] (-) TimerEvent: {}
+[0.603635] (-) TimerEvent: {}
+[0.704638] (-) TimerEvent: {}
+[0.805528] (-) TimerEvent: {}
+[0.906370] (-) TimerEvent: {}
+[1.007145] (-) TimerEvent: {}
+[1.108061] (-) TimerEvent: {}
+[1.208948] (-) TimerEvent: {}
+[1.309798] (-) TimerEvent: {}
+[1.311225] (me130_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.410015] (-) TimerEvent: {}
+[1.510911] (-) TimerEvent: {}
+[1.612062] (-) TimerEvent: {}
+[1.712931] (-) TimerEvent: {}
+[1.813957] (-) TimerEvent: {}
+[1.914829] (-) TimerEvent: {}
+[2.015749] (-) TimerEvent: {}
+[2.116396] (-) TimerEvent: {}
+[2.158855] (me130_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.216643] (-) TimerEvent: {}
+[2.264350] (me130_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.316845] (-) TimerEvent: {}
+[2.417662] (-) TimerEvent: {}
+[2.518275] (-) TimerEvent: {}
+[2.618913] (-) TimerEvent: {}
+[2.719603] (-) TimerEvent: {}
+[2.781791] (me130_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.817410] (me130_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.819692] (-) TimerEvent: {}
+[2.821608] (me130_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.823825] (me130_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.877766] (me130_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.919917] (-) TimerEvent: {}
+[3.020683] (-) TimerEvent: {}
+[3.121481] (-) TimerEvent: {}
+[3.222518] (-) TimerEvent: {}
+[3.323309] (-) TimerEvent: {}
+[3.392707] (me130_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.423465] (-) TimerEvent: {}
+[3.428698] (me130_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.429786] (me130_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.431565] (me130_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.463134] (me130_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.523654] (-) TimerEvent: {}
+[3.624362] (-) TimerEvent: {}
+[3.725055] (-) TimerEvent: {}
+[3.825973] (-) TimerEvent: {}
+[3.926714] (-) TimerEvent: {}
+[4.027410] (-) TimerEvent: {}
+[4.128067] (-) TimerEvent: {}
+[4.139420] (me130_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.228269] (-) TimerEvent: {}
+[4.328821] (-) TimerEvent: {}
+[4.429358] (-) TimerEvent: {}
+[4.530254] (-) TimerEvent: {}
+[4.630777] (-) TimerEvent: {}
+[4.731367] (-) TimerEvent: {}
+[4.732033] (me130_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[4.773256] (me130_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.831529] (-) TimerEvent: {}
+[4.932076] (-) TimerEvent: {}
+[5.032662] (-) TimerEvent: {}
+[5.126670] (me130_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.132777] (-) TimerEvent: {}
+[5.233322] (-) TimerEvent: {}
+[5.333928] (-) TimerEvent: {}
+[5.434555] (-) TimerEvent: {}
+[5.438005] (me130_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[5.464063] (me130_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[5.534724] (-) TimerEvent: {}
+[5.635323] (-) TimerEvent: {}
+[5.735892] (-) TimerEvent: {}
+[5.836476] (-) TimerEvent: {}
+[5.937138] (-) TimerEvent: {}
+[6.037725] (-) TimerEvent: {}
+[6.138307] (-) TimerEvent: {}
+[6.239088] (-) TimerEvent: {}
+[6.339688] (-) TimerEvent: {}
+[6.440294] (-) TimerEvent: {}
+[6.540904] (-) TimerEvent: {}
+[6.641471] (-) TimerEvent: {}
+[6.742030] (-) TimerEvent: {}
+[6.842655] (-) TimerEvent: {}
+[6.943238] (-) TimerEvent: {}
+[7.043850] (-) TimerEvent: {}
+[7.144436] (-) TimerEvent: {}
+[7.245106] (-) TimerEvent: {}
+[7.346069] (-) TimerEvent: {}
+[7.447114] (-) TimerEvent: {}
+[7.548113] (-) TimerEvent: {}
+[7.649100] (-) TimerEvent: {}
+[7.749698] (-) TimerEvent: {}
+[7.850263] (-) TimerEvent: {}
+[7.950804] (-) TimerEvent: {}
+[8.051435] (-) TimerEvent: {}
+[8.151942] (-) TimerEvent: {}
+[8.252661] (-) TimerEvent: {}
+[8.353174] (-) TimerEvent: {}
+[8.453871] (-) TimerEvent: {}
+[8.496053] (me130_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[8.554007] (-) TimerEvent: {}
+[8.654632] (-) TimerEvent: {}
+[8.755307] (-) TimerEvent: {}
+[8.855970] (-) TimerEvent: {}
+[8.956699] (-) TimerEvent: {}
+[9.057388] (-) TimerEvent: {}
+[9.158080] (-) TimerEvent: {}
+[9.258897] (-) TimerEvent: {}
+[9.359920] (-) TimerEvent: {}
+[9.460641] (-) TimerEvent: {}
+[9.561627] (-) TimerEvent: {}
+[9.662354] (-) TimerEvent: {}
+[9.763051] (-) TimerEvent: {}
+[9.863834] (-) TimerEvent: {}
+[9.964633] (-) TimerEvent: {}
+[10.065524] (-) TimerEvent: {}
+[10.166159] (-) TimerEvent: {}
+[10.267135] (-) TimerEvent: {}
+[10.367856] (-) TimerEvent: {}
+[10.468641] (-) TimerEvent: {}
+[10.569639] (-) TimerEvent: {}
+[10.670407] (-) TimerEvent: {}
+[10.693394] (me130_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.770567] (-) TimerEvent: {}
+[10.871139] (-) TimerEvent: {}
+[10.971848] (-) TimerEvent: {}
+[11.072863] (-) TimerEvent: {}
+[11.173416] (-) TimerEvent: {}
+[11.274070] (-) TimerEvent: {}
+[11.375010] (-) TimerEvent: {}
+[11.475631] (-) TimerEvent: {}
+[11.576181] (-) TimerEvent: {}
+[11.676782] (-) TimerEvent: {}
+[11.777322] (-) TimerEvent: {}
+[11.877880] (-) TimerEvent: {}
+[11.978445] (-) TimerEvent: {}
+[12.078966] (-) TimerEvent: {}
+[12.179547] (-) TimerEvent: {}
+[12.280078] (-) TimerEvent: {}
+[12.380633] (-) TimerEvent: {}
+[12.481155] (-) TimerEvent: {}
+[12.581675] (-) TimerEvent: {}
+[12.682192] (-) TimerEvent: {}
+[12.782758] (-) TimerEvent: {}
+[12.883329] (-) TimerEvent: {}
+[12.983866] (-) TimerEvent: {}
+[13.084396] (-) TimerEvent: {}
+[13.184923] (-) TimerEvent: {}
+[13.285520] (-) TimerEvent: {}
+[13.386039] (-) TimerEvent: {}
+[13.486632] (-) TimerEvent: {}
+[13.548150] (me130_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.572849] (me130_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[13.586832] (-) TimerEvent: {}
+[13.687597] (-) TimerEvent: {}
+[13.788276] (-) TimerEvent: {}
+[13.888987] (-) TimerEvent: {}
+[13.989649] (-) TimerEvent: {}
+[14.090283] (-) TimerEvent: {}
+[14.190968] (-) TimerEvent: {}
+[14.209072] (me130_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[14.291057] (-) TimerEvent: {}
+[14.391657] (-) TimerEvent: {}
+[14.492266] (-) TimerEvent: {}
+[14.592842] (-) TimerEvent: {}
+[14.693409] (-) TimerEvent: {}
+[14.793937] (-) TimerEvent: {}
+[14.894487] (-) TimerEvent: {}
+[14.995007] (-) TimerEvent: {}
+[15.095588] (-) TimerEvent: {}
+[15.196096] (-) TimerEvent: {}
+[15.296653] (-) TimerEvent: {}
+[15.397351] (-) TimerEvent: {}
+[15.498052] (-) TimerEvent: {}
+[15.598652] (-) TimerEvent: {}
+[15.699371] (-) TimerEvent: {}
+[15.800112] (-) TimerEvent: {}
+[15.900810] (-) TimerEvent: {}
+[16.001699] (-) TimerEvent: {}
+[16.102463] (-) TimerEvent: {}
+[16.203303] (-) TimerEvent: {}
+[16.303823] (-) TimerEvent: {}
+[16.404377] (-) TimerEvent: {}
+[16.504919] (-) TimerEvent: {}
+[16.605586] (-) TimerEvent: {}
+[16.642396] (me130_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[16.705742] (-) TimerEvent: {}
+[16.806309] (-) TimerEvent: {}
+[16.906846] (-) TimerEvent: {}
+[17.007416] (-) TimerEvent: {}
+[17.058999] (me130_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[17.107604] (-) TimerEvent: {}
+[17.126674] (me130_interfaces) StdoutLine: {'line': b'-- Configuring done (16.8s)\n'}
+[17.207783] (-) TimerEvent: {}
+[17.308346] (-) TimerEvent: {}
+[17.358787] (me130_interfaces) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[17.408519] (-) TimerEvent: {}
+[17.412298] (me130_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces\n'}
+[17.437713] (me130_interfaces) CommandEnded: {'returncode': 0}
+[17.439163] (me130_interfaces) JobProgress: {'identifier': 'me130_interfaces', 'progress': 'build'}
+[17.441123] (me130_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pontryagin', 'SSH_CLIENT': '10.243.37.174 51127 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/pontryagin', 'OLDPWD': '/home/pontryagin', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pontryagin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1001', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.243.37.174 51127 10.247.137.192 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[17.508741] (-) TimerEvent: {}
+[17.609557] (-) TimerEvent: {}
+[17.693612] (me130_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[17.698678] (me130_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[17.709761] (-) TimerEvent: {}
+[17.737174] (me130_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_me130_interfaces\n'}
+[17.809950] (-) TimerEvent: {}
+[17.910920] (-) TimerEvent: {}
+[18.013383] (-) TimerEvent: {}
+[18.114303] (-) TimerEvent: {}
+[18.214998] (-) TimerEvent: {}
+[18.315803] (-) TimerEvent: {}
+[18.419125] (-) TimerEvent: {}
+[18.520272] (-) TimerEvent: {}
+[18.620846] (-) TimerEvent: {}
+[18.721523] (-) TimerEvent: {}
+[18.822147] (-) TimerEvent: {}
+[18.864147] (me130_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[18.867705] (me130_interfaces) StdoutLine: {'line': b'creating me130_interfaces.egg-info\n'}
+[18.922316] (-) TimerEvent: {}
+[18.981555] (me130_interfaces) StdoutLine: {'line': b'writing me130_interfaces.egg-info/PKG-INFO\n'}
+[18.982799] (me130_interfaces) StdoutLine: {'line': b'writing dependency_links to me130_interfaces.egg-info/dependency_links.txt\n'}
+[18.984153] (me130_interfaces) StdoutLine: {'line': b'writing top-level names to me130_interfaces.egg-info/top_level.txt\n'}
+[18.985293] (me130_interfaces) StdoutLine: {'line': b"writing manifest file 'me130_interfaces.egg-info/SOURCES.txt'\n"}
+[19.022504] (-) TimerEvent: {}
+[19.123414] (-) TimerEvent: {}
+[19.182670] (me130_interfaces) StdoutLine: {'line': b'[  3%] Built target me130_interfaces__rosidl_generator_type_description\n'}
+[19.225821] (-) TimerEvent: {}
+[19.247365] (me130_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[19.315367] (me130_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[19.326468] (-) TimerEvent: {}
+[19.366548] (me130_interfaces) StdoutLine: {'line': b'[  7%] Built target me130_interfaces__rs\n'}
+[19.426687] (-) TimerEvent: {}
+[19.485923] (me130_interfaces) StdoutLine: {'line': b"reading manifest file 'me130_interfaces.egg-info/SOURCES.txt'\n"}
+[19.488880] (me130_interfaces) StdoutLine: {'line': b"writing manifest file 'me130_interfaces.egg-info/SOURCES.txt'\n"}
+[19.526993] (-) TimerEvent: {}
+[19.628402] (-) TimerEvent: {}
+[19.674284] (me130_interfaces) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_build_me130_interfaces_egg\n'}
+[19.728550] (-) TimerEvent: {}
+[19.829109] (-) TimerEvent: {}
+[19.929698] (-) TimerEvent: {}
+[20.030334] (-) TimerEvent: {}
+[20.131051] (-) TimerEvent: {}
+[20.231660] (-) TimerEvent: {}
+[20.332250] (-) TimerEvent: {}
+[20.432812] (-) TimerEvent: {}
+[20.533348] (-) TimerEvent: {}
+[20.633868] (-) TimerEvent: {}
+[20.734456] (-) TimerEvent: {}
+[20.835265] (-) TimerEvent: {}
+[20.936121] (-) TimerEvent: {}
+[21.038462] (-) TimerEvent: {}
+[21.139907] (-) TimerEvent: {}
+[21.243695] (-) TimerEvent: {}
+[21.248089] (me130_interfaces) StdoutLine: {'line': b'[  7%] Built target me130_interfaces__cpp\n'}
+[21.345644] (-) TimerEvent: {}
+[21.446482] (-) TimerEvent: {}
+[21.531576] (me130_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/me130_interfaces__rosidl_generator_c.dir/rosidl_generator_c/me130_interfaces/msg/detail/pendulum_angle__description.c.o\x1b[0m\n'}
+[21.537349] (me130_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/me130_interfaces__rosidl_generator_c.dir/rosidl_generator_c/me130_interfaces/msg/detail/pendulum_angle__functions.c.o\x1b[0m\n'}
+[21.538045] (me130_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/me130_interfaces__rosidl_generator_c.dir/rosidl_generator_c/me130_interfaces/msg/detail/pendulum_angle__type_support.c.o\x1b[0m\n'}
+[21.541332] (me130_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/me130_interfaces__rosidl_generator_c.dir/rosidl_generator_c/me130_interfaces/msg/detail/encoder_state__description.c.o\x1b[0m\n'}
+[21.546720] (-) TimerEvent: {}
+[21.647364] (-) TimerEvent: {}
+[21.750433] (-) TimerEvent: {}
+[21.778300] (me130_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/me130_interfaces__rosidl_generator_c.dir/rosidl_generator_c/me130_interfaces/msg/detail/encoder_state__functions.c.o\x1b[0m\n'}
+[21.850643] (-) TimerEvent: {}
+[21.856488] (me130_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/me130_interfaces__rosidl_generator_c.dir/rosidl_generator_c/me130_interfaces/msg/detail/motor_command__description.c.o\x1b[0m\n'}
+[21.860982] (me130_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/me130_interfaces__rosidl_generator_c.dir/rosidl_generator_c/me130_interfaces/msg/detail/encoder_state__type_support.c.o\x1b[0m\n'}
+[21.937101] (me130_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/me130_interfaces__rosidl_generator_c.dir/rosidl_generator_c/me130_interfaces/msg/detail/motor_command__functions.c.o\x1b[0m\n'}
+[21.950886] (-) TimerEvent: {}
+[22.050362] (me130_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/me130_interfaces__rosidl_generator_c.dir/rosidl_generator_c/me130_interfaces/msg/detail/motor_command__type_support.c.o\x1b[0m\n'}
+[22.051167] (-) TimerEvent: {}
+[22.152501] (-) TimerEvent: {}
+[22.227822] (me130_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libme130_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[22.252742] (-) TimerEvent: {}
+[22.353557] (-) TimerEvent: {}
+[22.453185] (me130_interfaces) StdoutLine: {'line': b'[ 25%] Built target me130_interfaces__rosidl_generator_c\n'}
+[22.453815] (-) TimerEvent: {}
+[22.511463] (me130_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[22.515479] (me130_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[22.516582] (me130_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[22.522616] (me130_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[22.554027] (-) TimerEvent: {}
+[22.657698] (-) TimerEvent: {}
+[22.759131] (-) TimerEvent: {}
+[22.861418] (-) TimerEvent: {}
+[22.962338] (-) TimerEvent: {}
+[23.065347] (-) TimerEvent: {}
+[23.166024] (-) TimerEvent: {}
+[23.269531] (-) TimerEvent: {}
+[23.370141] (-) TimerEvent: {}
+[23.470871] (-) TimerEvent: {}
+[23.571937] (-) TimerEvent: {}
+[23.675580] (-) TimerEvent: {}
+[23.776324] (-) TimerEvent: {}
+[23.879440] (-) TimerEvent: {}
+[23.980535] (-) TimerEvent: {}
+[24.081549] (-) TimerEvent: {}
+[24.184003] (-) TimerEvent: {}
+[24.287821] (-) TimerEvent: {}
+[24.320955] (me130_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/me130_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/me130_interfaces/msg/pendulum_angle__type_support.cpp.o\x1b[0m\n'}
+[24.388139] (me130_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/me130_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/me130_interfaces/msg/pendulum_angle__type_support.cpp.o\x1b[0m\n'}
+[24.388876] (-) TimerEvent: {}
+[24.491438] (-) TimerEvent: {}
+[24.592538] (-) TimerEvent: {}
+[24.654262] (me130_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/me130_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/me130_interfaces/msg/detail/pendulum_angle__type_support.c.o\x1b[0m\n'}
+[24.692857] (-) TimerEvent: {}
+[24.717434] (me130_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/me130_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/me130_interfaces/msg/encoder_state__type_support.cpp.o\x1b[0m\n'}
+[24.793075] (-) TimerEvent: {}
+[24.850538] (me130_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/me130_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/me130_interfaces/msg/detail/pendulum_angle__type_support_c.cpp.o\x1b[0m\n'}
+[24.893368] (-) TimerEvent: {}
+[24.907959] (me130_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/me130_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/me130_interfaces/msg/detail/encoder_state__type_support.c.o\x1b[0m\n'}
+[24.994459] (-) TimerEvent: {}
+[25.000603] (me130_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/me130_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/me130_interfaces/msg/motor_command__type_support.cpp.o\x1b[0m\n'}
+[25.097404] (-) TimerEvent: {}
+[25.148845] (me130_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/me130_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/me130_interfaces/msg/detail/motor_command__type_support.c.o\x1b[0m\n'}
+[25.197802] (-) TimerEvent: {}
+[25.266383] (me130_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking CXX shared library libme130_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[25.300493] (-) TimerEvent: {}
+[25.400621] (me130_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library libme130_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[25.401979] (-) TimerEvent: {}
+[25.504422] (-) TimerEvent: {}
+[25.520649] (me130_interfaces) StdoutLine: {'line': b'[ 50%] Built target me130_interfaces__rosidl_typesupport_c\n'}
+[25.589728] (me130_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[25.606580] (-) TimerEvent: {}
+[25.627354] (me130_interfaces) StdoutLine: {'line': b'[ 52%] Built target me130_interfaces__rosidl_typesupport_introspection_c\n'}
+[25.687741] (me130_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/me130_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/me130_interfaces/msg/detail/encoder_state__type_support_c.cpp.o\x1b[0m\n'}
+[25.706778] (-) TimerEvent: {}
+[25.807612] (-) TimerEvent: {}
+[25.910640] (-) TimerEvent: {}
+[26.011910] (-) TimerEvent: {}
+[26.115632] (-) TimerEvent: {}
+[26.216492] (-) TimerEvent: {}
+[26.318636] (-) TimerEvent: {}
+[26.421647] (-) TimerEvent: {}
+[26.525458] (-) TimerEvent: {}
+[26.601417] (me130_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/me130_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/me130_interfaces/msg/encoder_state__type_support.cpp.o\x1b[0m\n'}
+[26.625743] (-) TimerEvent: {}
+[26.729849] (-) TimerEvent: {}
+[26.830744] (-) TimerEvent: {}
+[26.936378] (-) TimerEvent: {}
+[27.037111] (-) TimerEvent: {}
+[27.138403] (-) TimerEvent: {}
+[27.242719] (-) TimerEvent: {}
+[27.343712] (-) TimerEvent: {}
+[27.445092] (-) TimerEvent: {}
+[27.548619] (-) TimerEvent: {}
+[27.649518] (-) TimerEvent: {}
+[27.752441] (-) TimerEvent: {}
+[27.853597] (-) TimerEvent: {}
+[27.956574] (-) TimerEvent: {}
+[27.970814] (me130_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/me130_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/me130_interfaces/msg/motor_command__type_support.cpp.o\x1b[0m\n'}
+[28.058395] (-) TimerEvent: {}
+[28.159498] (-) TimerEvent: {}
+[28.197048] (me130_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/me130_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/me130_interfaces/msg/detail/dds_fastrtps/pendulum_angle__type_support.cpp.o\x1b[0m\n'}
+[28.262378] (-) TimerEvent: {}
+[28.363251] (-) TimerEvent: {}
+[28.465641] (-) TimerEvent: {}
+[28.569506] (-) TimerEvent: {}
+[28.670652] (-) TimerEvent: {}
+[28.679529] (me130_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/me130_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/me130_interfaces/msg/detail/motor_command__type_support_c.cpp.o\x1b[0m\n'}
+[28.714982] (me130_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/me130_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/me130_interfaces/msg/detail/dds_fastrtps/encoder_state__type_support.cpp.o\x1b[0m\n'}
+[28.773391] (-) TimerEvent: {}
+[28.874253] (-) TimerEvent: {}
+[28.974973] (-) TimerEvent: {}
+[29.077402] (-) TimerEvent: {}
+[29.178175] (-) TimerEvent: {}
+[29.280443] (-) TimerEvent: {}
+[29.383440] (-) TimerEvent: {}
+[29.484403] (-) TimerEvent: {}
+[29.585333] (-) TimerEvent: {}
+[29.687465] (-) TimerEvent: {}
+[29.789508] (-) TimerEvent: {}
+[29.892542] (-) TimerEvent: {}
+[29.993554] (-) TimerEvent: {}
+[30.051365] (me130_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libme130_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[30.096442] (-) TimerEvent: {}
+[30.197787] (-) TimerEvent: {}
+[30.300414] (-) TimerEvent: {}
+[30.339989] (me130_interfaces) StdoutLine: {'line': b'[ 65%] Built target me130_interfaces__rosidl_typesupport_cpp\n'}
+[30.403450] (-) TimerEvent: {}
+[30.421623] (me130_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[30.505457] (-) TimerEvent: {}
+[30.606552] (-) TimerEvent: {}
+[30.709661] (-) TimerEvent: {}
+[30.812664] (-) TimerEvent: {}
+[30.914123] (-) TimerEvent: {}
+[31.017435] (-) TimerEvent: {}
+[31.118404] (-) TimerEvent: {}
+[31.221701] (-) TimerEvent: {}
+[31.323418] (-) TimerEvent: {}
+[31.402333] (me130_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/me130_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/me130_interfaces/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o\x1b[0m\n'}
+[31.423634] (-) TimerEvent: {}
+[31.525746] (-) TimerEvent: {}
+[31.629646] (-) TimerEvent: {}
+[31.731089] (-) TimerEvent: {}
+[31.780650] (me130_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libme130_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[31.831338] (-) TimerEvent: {}
+[31.935380] (-) TimerEvent: {}
+[32.036334] (-) TimerEvent: {}
+[32.137548] (-) TimerEvent: {}
+[32.196359] (me130_interfaces) StdoutLine: {'line': b'[ 70%] Built target me130_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[32.237809] (-) TimerEvent: {}
+[32.339469] (-) TimerEvent: {}
+[32.440533] (-) TimerEvent: {}
+[32.508959] (me130_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/me130_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/me130_interfaces/msg/detail/pendulum_angle__type_support.cpp.o\x1b[0m\n'}
+[32.515531] (me130_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/me130_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/me130_interfaces/msg/detail/encoder_state__type_support.cpp.o\x1b[0m\n'}
+[32.516797] (me130_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/me130_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/me130_interfaces/msg/detail/motor_command__type_support.cpp.o\x1b[0m\n'}
+[32.543393] (-) TimerEvent: {}
+[32.644118] (-) TimerEvent: {}
+[32.744772] (-) TimerEvent: {}
+[32.845421] (-) TimerEvent: {}
+[32.948459] (-) TimerEvent: {}
+[33.049419] (-) TimerEvent: {}
+[33.150475] (-) TimerEvent: {}
+[33.254426] (-) TimerEvent: {}
+[33.355308] (-) TimerEvent: {}
+[33.456152] (-) TimerEvent: {}
+[33.557253] (-) TimerEvent: {}
+[33.660628] (-) TimerEvent: {}
+[33.761503] (-) TimerEvent: {}
+[33.864480] (-) TimerEvent: {}
+[33.965330] (-) TimerEvent: {}
+[34.066417] (-) TimerEvent: {}
+[34.169780] (-) TimerEvent: {}
+[34.270667] (-) TimerEvent: {}
+[34.373417] (-) TimerEvent: {}
+[34.475105] (-) TimerEvent: {}
+[34.576980] (-) TimerEvent: {}
+[34.620696] (me130_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libme130_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[34.634446] (me130_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libme130_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[34.677179] (-) TimerEvent: {}
+[34.778792] (-) TimerEvent: {}
+[34.879672] (-) TimerEvent: {}
+[34.980393] (-) TimerEvent: {}
+[35.001881] (me130_interfaces) StdoutLine: {'line': b'[ 80%] Built target me130_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[35.024536] (me130_interfaces) StdoutLine: {'line': b'[ 80%] Built target me130_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[35.080569] (-) TimerEvent: {}
+[35.120913] (me130_interfaces) StdoutLine: {'line': b'[ 80%] Built target me130_interfaces\n'}
+[35.180768] (-) TimerEvent: {}
+[35.225649] (me130_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[35.280921] (-) TimerEvent: {}
+[35.381453] (-) TimerEvent: {}
+[35.482000] (-) TimerEvent: {}
+[35.582562] (-) TimerEvent: {}
+[35.683096] (-) TimerEvent: {}
+[35.783643] (-) TimerEvent: {}
+[35.884167] (-) TimerEvent: {}
+[35.984770] (-) TimerEvent: {}
+[36.085412] (-) TimerEvent: {}
+[36.185940] (-) TimerEvent: {}
+[36.286509] (-) TimerEvent: {}
+[36.387013] (-) TimerEvent: {}
+[36.487616] (-) TimerEvent: {}
+[36.588155] (-) TimerEvent: {}
+[36.688721] (-) TimerEvent: {}
+[36.789281] (-) TimerEvent: {}
+[36.889814] (-) TimerEvent: {}
+[36.990387] (-) TimerEvent: {}
+[37.090926] (-) TimerEvent: {}
+[37.191491] (-) TimerEvent: {}
+[37.292111] (-) TimerEvent: {}
+[37.393279] (-) TimerEvent: {}
+[37.493916] (-) TimerEvent: {}
+[37.553989] (me130_interfaces) StdoutLine: {'line': b'[ 81%] Built target me130_interfaces__py\n'}
+[37.594140] (-) TimerEvent: {}
+[37.657163] (me130_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/me130_interfaces__rosidl_generator_py.dir/rosidl_generator_py/me130_interfaces/msg/_pendulum_angle_s.c.o\x1b[0m\n'}
+[37.658569] (me130_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/me130_interfaces__rosidl_generator_py.dir/rosidl_generator_py/me130_interfaces/msg/_encoder_state_s.c.o\x1b[0m\n'}
+[37.660888] (me130_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/me130_interfaces__rosidl_generator_py.dir/rosidl_generator_py/me130_interfaces/msg/_motor_command_s.c.o\x1b[0m\n'}
+[37.694444] (-) TimerEvent: {}
+[37.795898] (-) TimerEvent: {}
+[37.896819] (-) TimerEvent: {}
+[37.997996] (-) TimerEvent: {}
+[38.098690] (-) TimerEvent: {}
+[38.199526] (-) TimerEvent: {}
+[38.301604] (-) TimerEvent: {}
+[38.403594] (-) TimerEvent: {}
+[38.504272] (-) TimerEvent: {}
+[38.506381] (me130_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library libme130_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[38.604486] (-) TimerEvent: {}
+[38.705096] (-) TimerEvent: {}
+[38.748239] (me130_interfaces) StdoutLine: {'line': b'[ 89%] Built target me130_interfaces__rosidl_generator_py\n'}
+[38.805457] (-) TimerEvent: {}
+[38.855649] (me130_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/me130_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/me130_interfaces/_me130_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[38.856743] (me130_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/me130_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/me130_interfaces/_me130_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[38.858863] (me130_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/me130_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/me130_interfaces/_me130_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[38.905681] (-) TimerEvent: {}
+[39.006415] (-) TimerEvent: {}
+[39.107072] (-) TimerEvent: {}
+[39.209448] (-) TimerEvent: {}
+[39.311661] (-) TimerEvent: {}
+[39.412432] (-) TimerEvent: {}
+[39.426818] (me130_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/me130_interfaces/me130_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[39.442102] (me130_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/me130_interfaces/me130_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[39.469769] (me130_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/me130_interfaces/me130_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[39.513542] (-) TimerEvent: {}
+[39.604006] (me130_interfaces) StdoutLine: {'line': b'[100%] Built target me130_interfaces_s__rosidl_typesupport_c\n'}
+[39.613751] (-) TimerEvent: {}
+[39.618829] (me130_interfaces) StdoutLine: {'line': b'[100%] Built target me130_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[39.642000] (me130_interfaces) StdoutLine: {'line': b'[100%] Built target me130_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[39.698755] (me130_interfaces) CommandEnded: {'returncode': 0}
+[39.700794] (me130_interfaces) JobProgress: {'identifier': 'me130_interfaces', 'progress': 'install'}
+[39.713959] (-) TimerEvent: {}
+[39.744472] (me130_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces'], 'cwd': '/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pontryagin', 'SSH_CLIENT': '10.243.37.174 51127 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/pontryagin', 'OLDPWD': '/home/pontryagin', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pontryagin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1001', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.243.37.174 51127 10.247.137.192 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[39.781916] (me130_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[39.783032] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/ament_index/resource_index/rosidl_interfaces/me130_interfaces\n'}
+[39.784835] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/msg/PendulumAngle.json\n'}
+[39.786028] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/msg/EncoderState.json\n'}
+[39.787294] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/msg/MotorCommand.json\n'}
+[39.788407] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces\n'}
+[39.789188] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg\n'}
+[39.789871] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail\n'}
+[39.790749] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__description.c\n'}
+[39.792008] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__functions.h\n'}
+[39.793140] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__functions.c\n'}
+[39.794438] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__functions.c\n'}
+[39.795644] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__type_support.h\n'}
+[39.796770] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__type_support.c\n'}
+[39.797884] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__description.c\n'}
+[39.799047] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__struct.h\n'}
+[39.800158] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__functions.c\n'}
+[39.801343] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__type_support.h\n'}
+[39.802474] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__functions.h\n'}
+[39.803634] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__type_support.c\n'}
+[39.804772] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__type_support.c\n'}
+[39.805880] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__struct.h\n'}
+[39.807025] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__functions.h\n'}
+[39.808259] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__struct.h\n'}
+[39.809382] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__description.c\n'}
+[39.810535] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__type_support.h\n'}
+[39.811670] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/motor_command.h\n'}
+[39.812742] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[39.813848] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/encoder_state.h\n'}
+[39.814255] (-) TimerEvent: {}
+[39.814936] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/pendulum_angle.h\n'}
+[39.816578] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/environment/library_path.sh\n'}
+[39.817781] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/environment/library_path.dsv\n'}
+[39.819363] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_generator_c.so\n'}
+[39.822516] (me130_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_generator_c.so" to ""\n'}
+[39.823247] (me130_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces\n'}
+[39.823683] (me130_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg\n'}
+[39.823997] (me130_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail\n'}
+[39.824462] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__rosidl_typesupport_fastrtps_c.h\n'}
+[39.825578] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__rosidl_typesupport_fastrtps_c.h\n'}
+[39.826855] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h\n'}
+[39.828123] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[39.829637] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[39.832676] (me130_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[39.833266] (me130_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces\n'}
+[39.833721] (me130_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg\n'}
+[39.834144] (me130_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail\n'}
+[39.834584] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_c.h\n'}
+[39.835765] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__rosidl_typesupport_introspection_c.h\n'}
+[39.837057] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__rosidl_typesupport_introspection_c.h\n'}
+[39.838293] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__type_support.c\n'}
+[39.839636] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__type_support.c\n'}
+[39.840887] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__type_support.c\n'}
+[39.842218] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[39.843770] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[39.846651] (me130_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[39.847245] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_typesupport_c.so\n'}
+[39.849948] (me130_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[39.850521] (me130_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces\n'}
+[39.850965] (me130_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg\n'}
+[39.851395] (me130_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail\n'}
+[39.851832] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__struct.hpp\n'}
+[39.852909] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__builder.hpp\n'}
+[39.854092] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__type_support.hpp\n'}
+[39.855254] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__traits.hpp\n'}
+[39.856457] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__struct.hpp\n'}
+[39.857662] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__traits.hpp\n'}
+[39.858804] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__traits.hpp\n'}
+[39.859943] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__type_support.hpp\n'}
+[39.861097] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__builder.hpp\n'}
+[39.862254] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__builder.hpp\n'}
+[39.863413] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__struct.hpp\n'}
+[39.864559] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__type_support.hpp\n'}
+[39.865704] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/pendulum_angle.hpp\n'}
+[39.866803] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/encoder_state.hpp\n'}
+[39.867884] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[39.869047] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/motor_command.hpp\n'}
+[39.870237] (me130_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces\n'}
+[39.870722] (me130_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg\n'}
+[39.871135] (me130_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail\n'}
+[39.871587] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[39.872950] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[39.874124] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/dds_fastrtps\n'}
+[39.875008] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[39.876307] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[39.877774] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[39.880816] (me130_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[39.881432] (me130_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces\n'}
+[39.881947] (me130_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg\n'}
+[39.882296] (me130_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail\n'}
+[39.882684] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[39.883947] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__type_support.cpp\n'}
+[39.885275] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__type_support.cpp\n'}
+[39.886744] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[39.888071] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[39.889358] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__type_support.cpp\n'}
+[39.890926] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[39.894123] (me130_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[39.894739] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_typesupport_cpp.so\n'}
+[39.897477] (me130_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[39.898023] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/environment/pythonpath.sh\n'}
+[39.899184] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/environment/pythonpath.dsv\n'}
+[39.900329] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces-1.0.0-py3.12.egg-info\n'}
+[39.901299] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces-1.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[39.902509] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces-1.0.0-py3.12.egg-info/top_level.txt\n'}
+[39.903645] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces-1.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[39.904772] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces-1.0.0-py3.12.egg-info/PKG-INFO\n'}
+[39.906040] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces\n'}
+[39.906831] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/me130_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[39.908687] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/me130_interfaces_s__rosidl_typesupport_c.so\n'}
+[39.910412] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/me130_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[39.912227] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/_me130_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[39.913541] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/_me130_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[39.914369] (-) TimerEvent: {}
+[39.914746] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/__init__.py\n'}
+[39.915737] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/msg\n'}
+[39.916571] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/msg/_encoder_state_s.c\n'}
+[39.917747] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/msg/_pendulum_angle.py\n'}
+[39.918868] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/msg/__init__.py\n'}
+[39.919892] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/msg/_pendulum_angle_s.c\n'}
+[39.921016] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/msg/_motor_command.py\n'}
+[39.922130] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/msg/_motor_command_s.c\n'}
+[39.923304] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/msg/_encoder_state.py\n'}
+[39.924484] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/_me130_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[40.014531] (-) TimerEvent: {}
+[40.113786] (me130_interfaces) StdoutLine: {'line': b"Listing '/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces'...\n"}
+[40.114994] (-) TimerEvent: {}
+[40.115564] (me130_interfaces) StdoutLine: {'line': b"Compiling '/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/__init__.py'...\n"}
+[40.116642] (me130_interfaces) StdoutLine: {'line': b"Listing '/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/msg'...\n"}
+[40.117635] (me130_interfaces) StdoutLine: {'line': b"Compiling '/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/msg/__init__.py'...\n"}
+[40.118490] (me130_interfaces) StdoutLine: {'line': b"Compiling '/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/msg/_encoder_state.py'...\n"}
+[40.119398] (me130_interfaces) StdoutLine: {'line': b"Compiling '/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/msg/_motor_command.py'...\n"}
+[40.120302] (me130_interfaces) StdoutLine: {'line': b"Compiling '/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/msg/_pendulum_angle.py'...\n"}
+[40.147557] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/me130_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[40.150529] (me130_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/me130_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[40.152135] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/me130_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[40.156246] (me130_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/me130_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[40.158346] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/me130_interfaces_s__rosidl_typesupport_c.so\n'}
+[40.162409] (me130_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/me130_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[40.163059] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_generator_py.so\n'}
+[40.166022] (me130_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_generator_py.so" to ""\n'}
+[40.166843] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/rust\n'}
+[40.167527] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/rust/src\n'}
+[40.168095] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/rust/src/msg\n'}
+[40.168786] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/rust/src/msg/rmw.rs\n'}
+[40.169994] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/rust/src/lib.rs\n'}
+[40.170961] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/rust/src/msg.rs\n'}
+[40.171963] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/rust/Cargo.toml\n'}
+[40.172995] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/rust/build.rs\n'}
+[40.174309] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/msg/PendulumAngle.idl\n'}
+[40.175493] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/msg/EncoderState.idl\n'}
+[40.176735] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/msg/MotorCommand.idl\n'}
+[40.177880] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/msg/PendulumAngle.msg\n'}
+[40.179031] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/msg/EncoderState.msg\n'}
+[40.180150] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/msg/MotorCommand.msg\n'}
+[40.181690] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/ament_index/resource_index/package_run_dependencies/me130_interfaces\n'}
+[40.183348] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/ament_index/resource_index/parent_prefix_path/me130_interfaces\n'}
+[40.184669] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/environment/ament_prefix_path.sh\n'}
+[40.185887] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/environment/ament_prefix_path.dsv\n'}
+[40.187094] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/environment/path.sh\n'}
+[40.188274] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/environment/path.dsv\n'}
+[40.189518] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/local_setup.bash\n'}
+[40.190715] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/local_setup.sh\n'}
+[40.191886] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/local_setup.zsh\n'}
+[40.193055] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/local_setup.dsv\n'}
+[40.194216] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/package.dsv\n'}
+[40.195688] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/ament_index/resource_index/packages/me130_interfaces\n'}
+[40.197328] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/export_me130_interfaces__rosidl_generator_cExport.cmake\n'}
+[40.198795] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/export_me130_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[40.200378] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/export_me130_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[40.201894] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/export_me130_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[40.203517] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/me130_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[40.204977] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/me130_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[40.206511] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/me130_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[40.207949] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/me130_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[40.209523] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/export_me130_interfaces__rosidl_generator_cppExport.cmake\n'}
+[40.211080] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/export_me130_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[40.212643] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/export_me130_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[40.214223] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/me130_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[40.215096] (-) TimerEvent: {}
+[40.215747] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/me130_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[40.217412] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/me130_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[40.218873] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/me130_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[40.220419] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/export_me130_interfaces__rosidl_generator_pyExport.cmake\n'}
+[40.221867] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/export_me130_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[40.223286] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[40.224573] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[40.225939] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[40.227342] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[40.228682] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[40.230009] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[40.231372] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[40.232679] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[40.233921] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/me130_interfacesConfig.cmake\n'}
+[40.235002] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/me130_interfacesConfig-version.cmake\n'}
+[40.236236] (me130_interfaces) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/package.xml\n'}
+[40.243760] (me130_interfaces) CommandEnded: {'returncode': 0}
+[40.316569] (-) TimerEvent: {}
+[40.370541] (me130_interfaces) JobEnded: {'identifier': 'me130_interfaces', 'rc': 0}
+[40.374101] (me130_pendulum) JobStarted: {'identifier': 'me130_pendulum'}
+[40.409682] (me130_pendulum) JobProgress: {'identifier': 'me130_pendulum', 'progress': 'cmake'}
+[40.411866] (me130_pendulum) Command: {'cmd': ['/usr/bin/cmake', '/home/pontryagin/me130_lab/ros2_ws/src/me130_pendulum', '-DCMAKE_INSTALL_PREFIX=/home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum'], 'cwd': '/home/pontryagin/me130_lab/ros2_ws/build/me130_pendulum', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pontryagin', 'SSH_CLIENT': '10.243.37.174 51127 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/pontryagin', 'OLDPWD': '/home/pontryagin', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pontryagin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1001', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pontryagin/me130_lab/ros2_ws/build/me130_pendulum', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.243.37.174 51127 10.247.137.192 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces:/opt/ros/jazzy'}), 'shell': False}
+[40.418087] (-) TimerEvent: {}
+[40.519089] (-) TimerEvent: {}
+[40.619768] (-) TimerEvent: {}
+[40.695417] (me130_pendulum) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[40.719980] (-) TimerEvent: {}
+[40.820701] (-) TimerEvent: {}
+[40.921408] (-) TimerEvent: {}
+[40.978636] (me130_pendulum) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[41.021581] (-) TimerEvent: {}
+[41.068801] (me130_pendulum) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[41.121933] (-) TimerEvent: {}
+[41.222804] (-) TimerEvent: {}
+[41.323628] (-) TimerEvent: {}
+[41.424330] (-) TimerEvent: {}
+[41.524979] (-) TimerEvent: {}
+[41.529731] (me130_pendulum) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[41.564429] (me130_pendulum) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[41.565336] (me130_pendulum) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[41.566891] (me130_pendulum) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[41.613408] (me130_pendulum) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[41.625178] (-) TimerEvent: {}
+[41.725865] (-) TimerEvent: {}
+[41.826575] (-) TimerEvent: {}
+[41.927322] (-) TimerEvent: {}
+[42.028064] (-) TimerEvent: {}
+[42.106441] (me130_pendulum) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[42.128220] (-) TimerEvent: {}
+[42.143091] (me130_pendulum) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[42.144109] (me130_pendulum) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[42.145959] (me130_pendulum) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[42.166652] (me130_pendulum) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[42.228356] (-) TimerEvent: {}
+[42.328955] (-) TimerEvent: {}
+[42.429701] (-) TimerEvent: {}
+[42.530586] (-) TimerEvent: {}
+[42.631523] (-) TimerEvent: {}
+[42.732338] (-) TimerEvent: {}
+[42.833099] (-) TimerEvent: {}
+[42.855542] (me130_pendulum) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[42.933297] (-) TimerEvent: {}
+[43.033843] (-) TimerEvent: {}
+[43.134479] (-) TimerEvent: {}
+[43.235274] (-) TimerEvent: {}
+[43.335810] (-) TimerEvent: {}
+[43.412098] (me130_pendulum) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[43.435984] (-) TimerEvent: {}
+[43.536568] (-) TimerEvent: {}
+[43.637149] (-) TimerEvent: {}
+[43.667154] (me130_pendulum) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[43.737326] (-) TimerEvent: {}
+[43.745088] (me130_pendulum) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[43.831796] (me130_pendulum) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[43.837474] (-) TimerEvent: {}
+[43.927873] (me130_pendulum) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[43.937621] (-) TimerEvent: {}
+[44.038165] (-) TimerEvent: {}
+[44.138816] (-) TimerEvent: {}
+[44.239341] (-) TimerEvent: {}
+[44.339905] (-) TimerEvent: {}
+[44.360344] (me130_pendulum) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[44.384448] (me130_pendulum) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[44.440080] (-) TimerEvent: {}
+[44.540676] (-) TimerEvent: {}
+[44.641304] (-) TimerEvent: {}
+[44.741920] (-) TimerEvent: {}
+[44.842653] (-) TimerEvent: {}
+[44.890572] (me130_pendulum) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[44.942827] (-) TimerEvent: {}
+[44.973600] (me130_pendulum) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[45.043064] (-) TimerEvent: {}
+[45.064463] (me130_pendulum) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[45.143265] (-) TimerEvent: {}
+[45.243849] (-) TimerEvent: {}
+[45.344433] (-) TimerEvent: {}
+[45.444996] (-) TimerEvent: {}
+[45.492412] (me130_pendulum) StdoutLine: {'line': b'-- Found std_srvs: 5.3.8 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[45.545173] (-) TimerEvent: {}
+[45.570461] (me130_pendulum) StdoutLine: {'line': b'-- Found me130_interfaces: 1.0.0 (/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake)\n'}
+[45.645351] (-) TimerEvent: {}
+[45.703351] (me130_pendulum) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[45.745514] (-) TimerEvent: {}
+[45.846110] (-) TimerEvent: {}
+[45.946810] (-) TimerEvent: {}
+[46.047577] (-) TimerEvent: {}
+[46.148279] (me130_pendulum) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[46.149014] (-) TimerEvent: {}
+[46.153256] (me130_pendulum) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[46.249171] (-) TimerEvent: {}
+[46.349713] (-) TimerEvent: {}
+[46.450288] (-) TimerEvent: {}
+[46.550999] (-) TimerEvent: {}
+[46.597126] (me130_pendulum) StdoutLine: {'line': b'-- Configuring done (6.1s)\n'}
+[46.651159] (-) TimerEvent: {}
+[46.751738] (-) TimerEvent: {}
+[46.835631] (me130_pendulum) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[46.851915] (-) TimerEvent: {}
+[46.898149] (me130_pendulum) StdoutLine: {'line': b'-- Build files have been written to: /home/pontryagin/me130_lab/ros2_ws/build/me130_pendulum\n'}
+[46.941916] (me130_pendulum) CommandEnded: {'returncode': 0}
+[46.944039] (me130_pendulum) JobProgress: {'identifier': 'me130_pendulum', 'progress': 'build'}
+[46.945062] (me130_pendulum) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pontryagin/me130_lab/ros2_ws/build/me130_pendulum', '--', '-j4', '-l4'], 'cwd': '/home/pontryagin/me130_lab/ros2_ws/build/me130_pendulum', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pontryagin', 'SSH_CLIENT': '10.243.37.174 51127 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/pontryagin', 'OLDPWD': '/home/pontryagin', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pontryagin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1001', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pontryagin/me130_lab/ros2_ws/build/me130_pendulum', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.243.37.174 51127 10.247.137.192 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces:/opt/ros/jazzy'}), 'shell': False}
+[46.952057] (-) TimerEvent: {}
+[47.052707] (-) TimerEvent: {}
+[47.153362] (-) TimerEvent: {}
+[47.202346] (me130_pendulum) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/me130_hardware.dir/src/hardware.cpp.o\x1b[0m\n'}
+[47.253606] (-) TimerEvent: {}
+[47.354259] (-) TimerEvent: {}
+[47.454855] (-) TimerEvent: {}
+[47.555600] (-) TimerEvent: {}
+[47.656383] (-) TimerEvent: {}
+[47.757039] (-) TimerEvent: {}
+[47.857698] (-) TimerEvent: {}
+[47.958382] (-) TimerEvent: {}
+[48.059043] (-) TimerEvent: {}
+[48.159767] (-) TimerEvent: {}
+[48.260538] (-) TimerEvent: {}
+[48.361175] (-) TimerEvent: {}
+[48.461849] (-) TimerEvent: {}
+[48.562527] (-) TimerEvent: {}
+[48.663263] (-) TimerEvent: {}
+[48.763884] (-) TimerEvent: {}
+[48.864596] (-) TimerEvent: {}
+[48.965300] (-) TimerEvent: {}
+[49.065920] (-) TimerEvent: {}
+[49.166569] (-) TimerEvent: {}
+[49.267175] (-) TimerEvent: {}
+[49.367801] (-) TimerEvent: {}
+[49.468475] (-) TimerEvent: {}
+[49.569148] (-) TimerEvent: {}
+[49.669807] (-) TimerEvent: {}
+[49.770443] (-) TimerEvent: {}
+[49.871062] (-) TimerEvent: {}
+[49.919583] (me130_pendulum) StdoutLine: {'line': b'[ 10%] \x1b[32m\x1b[1mLinking CXX static library libme130_hardware.a\x1b[0m\n'}
+[49.971299] (-) TimerEvent: {}
+[50.072029] (-) TimerEvent: {}
+[50.096861] (me130_pendulum) StdoutLine: {'line': b'[ 10%] Built target me130_hardware\n'}
+[50.173309] (-) TimerEvent: {}
+[50.215105] (me130_pendulum) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/encoder_node.dir/src/encoder_node.cpp.o\x1b[0m\n'}
+[50.215908] (me130_pendulum) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/imu_node.dir/src/imu_node.cpp.o\x1b[0m\n'}
+[50.218453] (me130_pendulum) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/motor_node.dir/src/motor_node.cpp.o\x1b[0m\n'}
+[50.223368] (me130_pendulum) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller_node.cpp.o\x1b[0m\n'}
+[50.273582] (-) TimerEvent: {}
+[50.374437] (-) TimerEvent: {}
+[50.475373] (-) TimerEvent: {}
+[50.579579] (-) TimerEvent: {}
+[50.680297] (-) TimerEvent: {}
+[50.781020] (-) TimerEvent: {}
+[50.881777] (-) TimerEvent: {}
+[50.983564] (-) TimerEvent: {}
+[51.084982] (-) TimerEvent: {}
+[51.188406] (-) TimerEvent: {}
+[51.289140] (-) TimerEvent: {}
+[51.391126] (-) TimerEvent: {}
+[51.491859] (-) TimerEvent: {}
+[51.594073] (-) TimerEvent: {}
+[51.696810] (-) TimerEvent: {}
+[51.797448] (-) TimerEvent: {}
+[51.900679] (-) TimerEvent: {}
+[52.002296] (-) TimerEvent: {}
+[52.104578] (-) TimerEvent: {}
+[52.205576] (-) TimerEvent: {}
+[52.307439] (-) TimerEvent: {}
+[52.408127] (-) TimerEvent: {}
+[52.510525] (-) TimerEvent: {}
+[52.612460] (-) TimerEvent: {}
+[52.716448] (-) TimerEvent: {}
+[52.817373] (-) TimerEvent: {}
+[52.918338] (-) TimerEvent: {}
+[53.019423] (-) TimerEvent: {}
+[53.122714] (-) TimerEvent: {}
+[53.223937] (-) TimerEvent: {}
+[53.326773] (-) TimerEvent: {}
+[53.429658] (-) TimerEvent: {}
+[53.533423] (-) TimerEvent: {}
+[53.634497] (-) TimerEvent: {}
+[53.738418] (-) TimerEvent: {}
+[53.839432] (-) TimerEvent: {}
+[53.940427] (-) TimerEvent: {}
+[54.043681] (-) TimerEvent: {}
+[54.146498] (-) TimerEvent: {}
+[54.250412] (-) TimerEvent: {}
+[54.351426] (-) TimerEvent: {}
+[54.453428] (-) TimerEvent: {}
+[54.557502] (-) TimerEvent: {}
+[54.658788] (-) TimerEvent: {}
+[54.760110] (-) TimerEvent: {}
+[54.863734] (-) TimerEvent: {}
+[54.965023] (-) TimerEvent: {}
+[55.068821] (-) TimerEvent: {}
+[55.169977] (-) TimerEvent: {}
+[55.273328] (-) TimerEvent: {}
+[55.376419] (-) TimerEvent: {}
+[55.477390] (-) TimerEvent: {}
+[55.580479] (-) TimerEvent: {}
+[55.681573] (-) TimerEvent: {}
+[55.784415] (-) TimerEvent: {}
+[55.885369] (-) TimerEvent: {}
+[55.987445] (-) TimerEvent: {}
+[56.088408] (-) TimerEvent: {}
+[56.191657] (-) TimerEvent: {}
+[56.294788] (-) TimerEvent: {}
+[56.395819] (-) TimerEvent: {}
+[56.499748] (-) TimerEvent: {}
+[56.602457] (-) TimerEvent: {}
+[56.705522] (-) TimerEvent: {}
+[56.806969] (-) TimerEvent: {}
+[56.909731] (-) TimerEvent: {}
+[57.012094] (-) TimerEvent: {}
+[57.116667] (-) TimerEvent: {}
+[57.217563] (-) TimerEvent: {}
+[57.318658] (-) TimerEvent: {}
+[57.421372] (-) TimerEvent: {}
+[57.522327] (-) TimerEvent: {}
+[57.626415] (-) TimerEvent: {}
+[57.727413] (-) TimerEvent: {}
+[57.828378] (-) TimerEvent: {}
+[57.931431] (-) TimerEvent: {}
+[58.032564] (-) TimerEvent: {}
+[58.136458] (-) TimerEvent: {}
+[58.237487] (-) TimerEvent: {}
+[58.338724] (-) TimerEvent: {}
+[58.441454] (-) TimerEvent: {}
+[58.542413] (-) TimerEvent: {}
+[58.645422] (-) TimerEvent: {}
+[58.746327] (-) TimerEvent: {}
+[58.848423] (-) TimerEvent: {}
+[58.949334] (-) TimerEvent: {}
+[59.051428] (-) TimerEvent: {}
+[59.153435] (-) TimerEvent: {}
+[59.254385] (-) TimerEvent: {}
+[59.357443] (-) TimerEvent: {}
+[59.458343] (-) TimerEvent: {}
+[59.561417] (-) TimerEvent: {}
+[59.662296] (-) TimerEvent: {}
+[59.765451] (-) TimerEvent: {}
+[59.866510] (-) TimerEvent: {}
+[59.967407] (-) TimerEvent: {}
+[60.070406] (-) TimerEvent: {}
+[60.171305] (-) TimerEvent: {}
+[60.274439] (-) TimerEvent: {}
+[60.375465] (-) TimerEvent: {}
+[60.476417] (-) TimerEvent: {}
+[60.578433] (-) TimerEvent: {}
+[60.680414] (-) TimerEvent: {}
+[60.782502] (-) TimerEvent: {}
+[60.886797] (-) TimerEvent: {}
+[60.987783] (-) TimerEvent: {}
+[61.091740] (-) TimerEvent: {}
+[61.192712] (-) TimerEvent: {}
+[61.297423] (-) TimerEvent: {}
+[61.398424] (-) TimerEvent: {}
+[61.499314] (-) TimerEvent: {}
+[61.603418] (-) TimerEvent: {}
+[61.704387] (-) TimerEvent: {}
+[61.805417] (-) TimerEvent: {}
+[61.906314] (-) TimerEvent: {}
+[62.008428] (-) TimerEvent: {}
+[62.111423] (-) TimerEvent: {}
+[62.212344] (-) TimerEvent: {}
+[62.314408] (-) TimerEvent: {}
+[62.415341] (-) TimerEvent: {}
+[62.517418] (-) TimerEvent: {}
+[62.619424] (-) TimerEvent: {}
+[62.720339] (-) TimerEvent: {}
+[62.822434] (-) TimerEvent: {}
+[62.925443] (-) TimerEvent: {}
+[63.026535] (-) TimerEvent: {}
+[63.130414] (-) TimerEvent: {}
+[63.231351] (-) TimerEvent: {}
+[63.332313] (-) TimerEvent: {}
+[63.435432] (-) TimerEvent: {}
+[63.536388] (-) TimerEvent: {}
+[63.639451] (-) TimerEvent: {}
+[63.740405] (-) TimerEvent: {}
+[63.841370] (-) TimerEvent: {}
+[63.945475] (-) TimerEvent: {}
+[64.046989] (-) TimerEvent: {}
+[64.148454] (-) TimerEvent: {}
+[64.251685] (-) TimerEvent: {}
+[64.355444] (-) TimerEvent: {}
+[64.456438] (-) TimerEvent: {}
+[64.557421] (-) TimerEvent: {}
+[64.661878] (-) TimerEvent: {}
+[64.762829] (-) TimerEvent: {}
+[64.863947] (-) TimerEvent: {}
+[64.967423] (-) TimerEvent: {}
+[65.068376] (-) TimerEvent: {}
+[65.171413] (-) TimerEvent: {}
+[65.272306] (-) TimerEvent: {}
+[65.373338] (-) TimerEvent: {}
+[65.477434] (-) TimerEvent: {}
+[65.578359] (-) TimerEvent: {}
+[65.679246] (-) TimerEvent: {}
+[65.781415] (-) TimerEvent: {}
+[65.882340] (-) TimerEvent: {}
+[65.985422] (-) TimerEvent: {}
+[66.086339] (-) TimerEvent: {}
+[66.189460] (-) TimerEvent: {}
+[66.290366] (-) TimerEvent: {}
+[66.391273] (-) TimerEvent: {}
+[66.493438] (-) TimerEvent: {}
+[66.594356] (-) TimerEvent: {}
+[66.696425] (-) TimerEvent: {}
+[66.798425] (-) TimerEvent: {}
+[66.899460] (-) TimerEvent: {}
+[67.003428] (-) TimerEvent: {}
+[67.104420] (-) TimerEvent: {}
+[67.207692] (-) TimerEvent: {}
+[67.308616] (-) TimerEvent: {}
+[67.412699] (-) TimerEvent: {}
+[67.513679] (-) TimerEvent: {}
+[67.614623] (-) TimerEvent: {}
+[67.719427] (-) TimerEvent: {}
+[67.820400] (-) TimerEvent: {}
+[67.921387] (-) TimerEvent: {}
+[68.024722] (-) TimerEvent: {}
+[68.125694] (-) TimerEvent: {}
+[68.229693] (-) TimerEvent: {}
+[68.331074] (-) TimerEvent: {}
+[68.434714] (-) TimerEvent: {}
+[68.536273] (-) TimerEvent: {}
+[68.638764] (-) TimerEvent: {}
+[68.742681] (-) TimerEvent: {}
+[68.843624] (-) TimerEvent: {}
+[68.947651] (-) TimerEvent: {}
+[69.048724] (-) TimerEvent: {}
+[69.149790] (-) TimerEvent: {}
+[69.252425] (-) TimerEvent: {}
+[69.353389] (-) TimerEvent: {}
+[69.456479] (-) TimerEvent: {}
+[69.557442] (-) TimerEvent: {}
+[69.658414] (-) TimerEvent: {}
+[69.762700] (-) TimerEvent: {}
+[69.863765] (-) TimerEvent: {}
+[69.964933] (-) TimerEvent: {}
+[70.067714] (-) TimerEvent: {}
+[70.168659] (-) TimerEvent: {}
+[70.272686] (-) TimerEvent: {}
+[70.373668] (-) TimerEvent: {}
+[70.474640] (-) TimerEvent: {}
+[70.578709] (-) TimerEvent: {}
+[70.679721] (-) TimerEvent: {}
+[70.781093] (-) TimerEvent: {}
+[70.885593] (-) TimerEvent: {}
+[70.986521] (-) TimerEvent: {}
+[71.087435] (-) TimerEvent: {}
+[71.190426] (-) TimerEvent: {}
+[71.291348] (-) TimerEvent: {}
+[71.392251] (-) TimerEvent: {}
+[71.494695] (-) TimerEvent: {}
+[71.595661] (-) TimerEvent: {}
+[71.697690] (-) TimerEvent: {}
+[71.799721] (-) TimerEvent: {}
+[71.902189] (-) TimerEvent: {}
+[72.004118] (-) TimerEvent: {}
+[72.108679] (-) TimerEvent: {}
+[72.209633] (-) TimerEvent: {}
+[72.312473] (-) TimerEvent: {}
+[72.413715] (-) TimerEvent: {}
+[72.516052] (-) TimerEvent: {}
+[72.620660] (-) TimerEvent: {}
+[72.721758] (-) TimerEvent: {}
+[72.825474] (-) TimerEvent: {}
+[72.926638] (-) TimerEvent: {}
+[73.029434] (-) TimerEvent: {}
+[73.130521] (-) TimerEvent: {}
+[73.234733] (-) TimerEvent: {}
+[73.336178] (-) TimerEvent: {}
+[73.440745] (-) TimerEvent: {}
+[73.544456] (-) TimerEvent: {}
+[73.645577] (-) TimerEvent: {}
+[73.749524] (-) TimerEvent: {}
+[73.850844] (-) TimerEvent: {}
+[73.953435] (-) TimerEvent: {}
+[74.056409] (-) TimerEvent: {}
+[74.157388] (-) TimerEvent: {}
+[74.258383] (-) TimerEvent: {}
+[74.362710] (-) TimerEvent: {}
+[74.464134] (-) TimerEvent: {}
+[74.566412] (-) TimerEvent: {}
+[74.668412] (-) TimerEvent: {}
+[74.769368] (-) TimerEvent: {}
+[74.873424] (-) TimerEvent: {}
+[74.974506] (-) TimerEvent: {}
+[75.075603] (-) TimerEvent: {}
+[75.179675] (-) TimerEvent: {}
+[75.280681] (-) TimerEvent: {}
+[75.381731] (-) TimerEvent: {}
+[75.485708] (-) TimerEvent: {}
+[75.586674] (-) TimerEvent: {}
+[75.687638] (-) TimerEvent: {}
+[75.794651] (-) TimerEvent: {}
+[75.898538] (-) TimerEvent: {}
+[76.002452] (-) TimerEvent: {}
+[76.103392] (-) TimerEvent: {}
+[76.206427] (-) TimerEvent: {}
+[76.307452] (-) TimerEvent: {}
+[76.408451] (-) TimerEvent: {}
+[76.512708] (-) TimerEvent: {}
+[76.613422] (-) TimerEvent: {}
+[76.714421] (-) TimerEvent: {}
+[76.815306] (-) TimerEvent: {}
+[76.917459] (-) TimerEvent: {}
+[77.024121] (-) TimerEvent: {}
+[77.126410] (-) TimerEvent: {}
+[77.229759] (-) TimerEvent: {}
+[77.330773] (-) TimerEvent: {}
+[77.433476] (-) TimerEvent: {}
+[77.535680] (-) TimerEvent: {}
+[77.639431] (-) TimerEvent: {}
+[77.740393] (-) TimerEvent: {}
+[77.841311] (-) TimerEvent: {}
+[77.943436] (-) TimerEvent: {}
+[78.044351] (-) TimerEvent: {}
+[78.147431] (-) TimerEvent: {}
+[78.248354] (-) TimerEvent: {}
+[78.352433] (-) TimerEvent: {}
+[78.453420] (-) TimerEvent: {}
+[78.554514] (-) TimerEvent: {}
+[78.655848] (-) TimerEvent: {}
+[78.759701] (-) TimerEvent: {}
+[78.860980] (-) TimerEvent: {}
+[78.965052] (-) TimerEvent: {}
+[79.066543] (-) TimerEvent: {}
+[79.171719] (-) TimerEvent: {}
+[79.275822] (-) TimerEvent: {}
+[79.376719] (-) TimerEvent: {}
+[79.480417] (-) TimerEvent: {}
+[79.581327] (-) TimerEvent: {}
+[79.684597] (-) TimerEvent: {}
+[79.785548] (-) TimerEvent: {}
+[79.889729] (-) TimerEvent: {}
+[79.990680] (-) TimerEvent: {}
+[80.091661] (-) TimerEvent: {}
+[80.193668] (-) TimerEvent: {}
+[80.297683] (-) TimerEvent: {}
+[80.354583] (me130_pendulum) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX executable encoder_node\x1b[0m\n'}
+[80.399547] (-) TimerEvent: {}
+[80.504035] (-) TimerEvent: {}
+[80.605055] (-) TimerEvent: {}
+[80.706291] (-) TimerEvent: {}
+[80.809767] (-) TimerEvent: {}
+[80.911096] (-) TimerEvent: {}
+[81.014149] (-) TimerEvent: {}
+[81.116903] (-) TimerEvent: {}
+[81.219413] (-) TimerEvent: {}
+[81.320481] (-) TimerEvent: {}
+[81.425430] (-) TimerEvent: {}
+[81.526630] (-) TimerEvent: {}
+[81.630405] (-) TimerEvent: {}
+[81.731393] (-) TimerEvent: {}
+[81.832393] (-) TimerEvent: {}
+[81.935686] (-) TimerEvent: {}
+[82.038706] (-) TimerEvent: {}
+[82.088435] (me130_pendulum) StdoutLine: {'line': b'[ 35%] Built target encoder_node\n'}
+[82.139003] (-) TimerEvent: {}
+[82.239613] (me130_pendulum) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/step_sequence_node.dir/src/step_sequence_node.cpp.o\x1b[0m\n'}
+[82.240986] (-) TimerEvent: {}
+[82.344423] (-) TimerEvent: {}
+[82.445390] (-) TimerEvent: {}
+[82.547624] (-) TimerEvent: {}
+[82.648492] (-) TimerEvent: {}
+[82.751635] (-) TimerEvent: {}
+[82.852525] (-) TimerEvent: {}
+[82.953398] (-) TimerEvent: {}
+[83.055840] (-) TimerEvent: {}
+[83.159397] (-) TimerEvent: {}
+[83.260143] (-) TimerEvent: {}
+[83.361027] (-) TimerEvent: {}
+[83.464403] (-) TimerEvent: {}
+[83.565154] (-) TimerEvent: {}
+[83.666734] (-) TimerEvent: {}
+[83.768411] (-) TimerEvent: {}
+[83.871701] (-) TimerEvent: {}
+[83.973542] (-) TimerEvent: {}
+[84.079432] (-) TimerEvent: {}
+[84.180624] (-) TimerEvent: {}
+[84.282486] (-) TimerEvent: {}
+[84.372903] (me130_pendulum) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX executable imu_node\x1b[0m\n'}
+[84.385431] (-) TimerEvent: {}
+[84.486417] (-) TimerEvent: {}
+[84.587463] (-) TimerEvent: {}
+[84.692521] (-) TimerEvent: {}
+[84.794317] (-) TimerEvent: {}
+[84.898793] (-) TimerEvent: {}
+[85.001918] (-) TimerEvent: {}
+[85.106847] (-) TimerEvent: {}
+[85.208165] (-) TimerEvent: {}
+[85.311328] (-) TimerEvent: {}
+[85.416711] (-) TimerEvent: {}
+[85.517804] (-) TimerEvent: {}
+[85.619382] (-) TimerEvent: {}
+[85.722179] (-) TimerEvent: {}
+[85.825421] (-) TimerEvent: {}
+[85.926441] (-) TimerEvent: {}
+[86.012481] (me130_pendulum) StdoutLine: {'line': b'[ 45%] Built target imu_node\n'}
+[86.026664] (-) TimerEvent: {}
+[86.129705] (-) TimerEvent: {}
+[86.160542] (me130_pendulum) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sine_sweep_node.dir/src/sine_sweep_node.cpp.o\x1b[0m\n'}
+[86.231404] (-) TimerEvent: {}
+[86.335595] (-) TimerEvent: {}
+[86.437175] (-) TimerEvent: {}
+[86.541432] (-) TimerEvent: {}
+[86.642255] (-) TimerEvent: {}
+[86.743132] (-) TimerEvent: {}
+[86.843994] (-) TimerEvent: {}
+[86.947630] (-) TimerEvent: {}
+[87.048942] (-) TimerEvent: {}
+[87.152718] (-) TimerEvent: {}
+[87.253610] (-) TimerEvent: {}
+[87.357675] (-) TimerEvent: {}
+[87.458578] (-) TimerEvent: {}
+[87.561363] (-) TimerEvent: {}
+[87.662056] (-) TimerEvent: {}
+[87.765723] (-) TimerEvent: {}
+[87.867163] (-) TimerEvent: {}
+[87.970721] (-) TimerEvent: {}
+[88.071952] (-) TimerEvent: {}
+[88.175715] (-) TimerEvent: {}
+[88.276644] (-) TimerEvent: {}
+[88.379439] (-) TimerEvent: {}
+[88.480514] (-) TimerEvent: {}
+[88.583328] (-) TimerEvent: {}
+[88.686689] (-) TimerEvent: {}
+[88.790707] (-) TimerEvent: {}
+[88.891728] (-) TimerEvent: {}
+[88.995732] (-) TimerEvent: {}
+[89.096840] (-) TimerEvent: {}
+[89.200666] (-) TimerEvent: {}
+[89.301605] (-) TimerEvent: {}
+[89.402466] (-) TimerEvent: {}
+[89.505447] (-) TimerEvent: {}
+[89.606450] (-) TimerEvent: {}
+[89.709060] (-) TimerEvent: {}
+[89.810987] (-) TimerEvent: {}
+[89.914439] (-) TimerEvent: {}
+[90.015462] (-) TimerEvent: {}
+[90.119434] (-) TimerEvent: {}
+[90.220449] (-) TimerEvent: {}
+[90.321398] (-) TimerEvent: {}
+[90.422334] (-) TimerEvent: {}
+[90.525505] (-) TimerEvent: {}
+[90.626544] (-) TimerEvent: {}
+[90.729751] (-) TimerEvent: {}
+[90.831587] (-) TimerEvent: {}
+[90.933449] (-) TimerEvent: {}
+[91.036430] (-) TimerEvent: {}
+[91.137326] (-) TimerEvent: {}
+[91.240431] (-) TimerEvent: {}
+[91.341372] (-) TimerEvent: {}
+[91.442404] (-) TimerEvent: {}
+[91.544814] (-) TimerEvent: {}
+[91.648124] (-) TimerEvent: {}
+[91.750691] (-) TimerEvent: {}
+[91.853464] (-) TimerEvent: {}
+[91.954406] (-) TimerEvent: {}
+[92.056462] (-) TimerEvent: {}
+[92.159429] (-) TimerEvent: {}
+[92.260442] (-) TimerEvent: {}
+[92.362448] (-) TimerEvent: {}
+[92.465428] (-) TimerEvent: {}
+[92.566392] (-) TimerEvent: {}
+[92.669443] (-) TimerEvent: {}
+[92.770365] (-) TimerEvent: {}
+[92.871799] (-) TimerEvent: {}
+[92.975713] (-) TimerEvent: {}
+[93.076670] (-) TimerEvent: {}
+[93.180417] (-) TimerEvent: {}
+[93.281344] (-) TimerEvent: {}
+[93.382355] (-) TimerEvent: {}
+[93.483459] (-) TimerEvent: {}
+[93.587429] (-) TimerEvent: {}
+[93.688354] (-) TimerEvent: {}
+[93.789134] (-) TimerEvent: {}
+[93.892416] (-) TimerEvent: {}
+[93.993356] (-) TimerEvent: {}
+[94.094426] (-) TimerEvent: {}
+[94.196425] (-) TimerEvent: {}
+[94.298467] (-) TimerEvent: {}
+[94.401441] (-) TimerEvent: {}
+[94.502378] (-) TimerEvent: {}
+[94.603324] (-) TimerEvent: {}
+[94.706435] (-) TimerEvent: {}
+[94.807359] (-) TimerEvent: {}
+[94.910436] (-) TimerEvent: {}
+[95.011402] (-) TimerEvent: {}
+[95.112399] (-) TimerEvent: {}
+[95.216386] (-) TimerEvent: {}
+[95.317301] (-) TimerEvent: {}
+[95.418093] (-) TimerEvent: {}
+[95.521433] (-) TimerEvent: {}
+[95.622366] (-) TimerEvent: {}
+[95.723353] (-) TimerEvent: {}
+[95.825407] (-) TimerEvent: {}
+[95.929663] (-) TimerEvent: {}
+[96.030693] (-) TimerEvent: {}
+[96.131590] (-) TimerEvent: {}
+[96.234498] (-) TimerEvent: {}
+[96.335454] (-) TimerEvent: {}
+[96.437427] (-) TimerEvent: {}
+[96.538814] (-) TimerEvent: {}
+[96.641765] (-) TimerEvent: {}
+[96.744722] (-) TimerEvent: {}
+[96.845592] (-) TimerEvent: {}
+[96.947446] (-) TimerEvent: {}
+[97.049426] (-) TimerEvent: {}
+[97.151419] (-) TimerEvent: {}
+[97.252368] (-) TimerEvent: {}
+[97.356709] (-) TimerEvent: {}
+[97.457682] (-) TimerEvent: {}
+[97.558628] (-) TimerEvent: {}
+[97.661478] (-) TimerEvent: {}
+[97.762414] (-) TimerEvent: {}
+[97.864444] (-) TimerEvent: {}
+[97.965383] (-) TimerEvent: {}
+[98.069431] (-) TimerEvent: {}
+[98.170366] (-) TimerEvent: {}
+[98.271139] (-) TimerEvent: {}
+[98.374418] (-) TimerEvent: {}
+[98.475195] (-) TimerEvent: {}
+[98.576022] (-) TimerEvent: {}
+[98.676878] (-) TimerEvent: {}
+[98.779407] (-) TimerEvent: {}
+[98.881425] (-) TimerEvent: {}
+[98.982310] (-) TimerEvent: {}
+[99.085425] (-) TimerEvent: {}
+[99.186339] (-) TimerEvent: {}
+[99.287166] (-) TimerEvent: {}
+[99.390435] (-) TimerEvent: {}
+[99.491412] (-) TimerEvent: {}
+[99.595447] (-) TimerEvent: {}
+[99.696334] (-) TimerEvent: {}
+[99.797243] (-) TimerEvent: {}
+[99.898102] (-) TimerEvent: {}
+[100.000429] (-) TimerEvent: {}
+[100.101339] (-) TimerEvent: {}
+[100.205687] (-) TimerEvent: {}
+[100.306616] (-) TimerEvent: {}
+[100.409431] (-) TimerEvent: {}
+[100.510412] (-) TimerEvent: {}
+[100.613439] (-) TimerEvent: {}
+[100.714311] (-) TimerEvent: {}
+[100.816711] (-) TimerEvent: {}
+[100.919688] (-) TimerEvent: {}
+[101.023496] (-) TimerEvent: {}
+[101.126405] (-) TimerEvent: {}
+[101.227279] (-) TimerEvent: {}
+[101.328293] (-) TimerEvent: {}
+[101.430470] (-) TimerEvent: {}
+[101.533454] (-) TimerEvent: {}
+[101.636708] (-) TimerEvent: {}
+[101.686982] (me130_pendulum) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX executable motor_node\x1b[0m\n'}
+[101.738444] (-) TimerEvent: {}
+[101.839408] (-) TimerEvent: {}
+[101.941746] (-) TimerEvent: {}
+[102.043676] (-) TimerEvent: {}
+[102.145714] (-) TimerEvent: {}
+[102.249413] (-) TimerEvent: {}
+[102.350161] (-) TimerEvent: {}
+[102.451139] (-) TimerEvent: {}
+[102.553448] (-) TimerEvent: {}
+[102.654425] (-) TimerEvent: {}
+[102.756649] (-) TimerEvent: {}
+[102.860445] (-) TimerEvent: {}
+[102.961363] (-) TimerEvent: {}
+[103.062255] (-) TimerEvent: {}
+[103.163081] (-) TimerEvent: {}
+[103.266412] (-) TimerEvent: {}
+[103.367362] (-) TimerEvent: {}
+[103.470415] (-) TimerEvent: {}
+[103.571363] (-) TimerEvent: {}
+[103.672348] (-) TimerEvent: {}
+[103.775616] (-) TimerEvent: {}
+[103.876486] (-) TimerEvent: {}
+[103.940774] (me130_pendulum) StdoutLine: {'line': b'[ 55%] Built target motor_node\n'}
+[103.976853] (-) TimerEvent: {}
+[104.068429] (me130_pendulum) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/motor_characterization_node.dir/src/motor_characterization_node.cpp.o\x1b[0m\n'}
+[104.077106] (-) TimerEvent: {}
+[104.180431] (-) TimerEvent: {}
+[104.281303] (-) TimerEvent: {}
+[104.382404] (-) TimerEvent: {}
+[104.485395] (-) TimerEvent: {}
+[104.586415] (-) TimerEvent: {}
+[104.689626] (-) TimerEvent: {}
+[104.790425] (-) TimerEvent: {}
+[104.894630] (-) TimerEvent: {}
+[104.995405] (-) TimerEvent: {}
+[105.096309] (-) TimerEvent: {}
+[105.200663] (-) TimerEvent: {}
+[105.301551] (-) TimerEvent: {}
+[105.402400] (-) TimerEvent: {}
+[105.506390] (-) TimerEvent: {}
+[105.607397] (-) TimerEvent: {}
+[105.708415] (-) TimerEvent: {}
+[105.812704] (-) TimerEvent: {}
+[105.922080] (-) TimerEvent: {}
+[106.023398] (-) TimerEvent: {}
+[106.127660] (-) TimerEvent: {}
+[106.228688] (-) TimerEvent: {}
+[106.329586] (-) TimerEvent: {}
+[106.433409] (-) TimerEvent: {}
+[106.534401] (-) TimerEvent: {}
+[106.637795] (-) TimerEvent: {}
+[106.740863] (-) TimerEvent: {}
+[106.844970] (-) TimerEvent: {}
+[106.949440] (-) TimerEvent: {}
+[107.052404] (-) TimerEvent: {}
+[107.159986] (-) TimerEvent: {}
+[107.263485] (-) TimerEvent: {}
+[107.365524] (-) TimerEvent: {}
+[107.471105] (-) TimerEvent: {}
+[107.575702] (-) TimerEvent: {}
+[107.678796] (-) TimerEvent: {}
+[107.775628] (me130_pendulum) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX executable controller_node\x1b[0m\n'}
+[107.779086] (-) TimerEvent: {}
+[107.882059] (-) TimerEvent: {}
+[107.985684] (-) TimerEvent: {}
+[108.086735] (-) TimerEvent: {}
+[108.190867] (-) TimerEvent: {}
+[108.292169] (-) TimerEvent: {}
+[108.395462] (-) TimerEvent: {}
+[108.496622] (-) TimerEvent: {}
+[108.599610] (-) TimerEvent: {}
+[108.700820] (-) TimerEvent: {}
+[108.804883] (-) TimerEvent: {}
+[108.907893] (-) TimerEvent: {}
+[109.010855] (-) TimerEvent: {}
+[109.113951] (-) TimerEvent: {}
+[109.216883] (-) TimerEvent: {}
+[109.319758] (-) TimerEvent: {}
+[109.422735] (-) TimerEvent: {}
+[109.523835] (-) TimerEvent: {}
+[109.627658] (-) TimerEvent: {}
+[109.728620] (-) TimerEvent: {}
+[109.832889] (-) TimerEvent: {}
+[109.934395] (-) TimerEvent: {}
+[110.038777] (-) TimerEvent: {}
+[110.139613] (-) TimerEvent: {}
+[110.240846] (-) TimerEvent: {}
+[110.342687] (-) TimerEvent: {}
+[110.367327] (me130_pendulum) StdoutLine: {'line': b'[ 65%] Built target controller_node\n'}
+[110.442934] (-) TimerEvent: {}
+[110.513948] (me130_pendulum) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/logger_node.dir/src/logger_node.cpp.o\x1b[0m\n'}
+[110.544454] (-) TimerEvent: {}
+[110.645910] (-) TimerEvent: {}
+[110.750715] (-) TimerEvent: {}
+[110.851903] (-) TimerEvent: {}
+[110.952959] (-) TimerEvent: {}
+[111.060410] (-) TimerEvent: {}
+[111.161382] (-) TimerEvent: {}
+[111.264445] (-) TimerEvent: {}
+[111.365427] (-) TimerEvent: {}
+[111.466376] (-) TimerEvent: {}
+[111.568677] (-) TimerEvent: {}
+[111.671391] (-) TimerEvent: {}
+[111.772336] (-) TimerEvent: {}
+[111.873337] (-) TimerEvent: {}
+[111.976419] (-) TimerEvent: {}
+[112.077314] (-) TimerEvent: {}
+[112.180401] (-) TimerEvent: {}
+[112.281377] (-) TimerEvent: {}
+[112.382265] (-) TimerEvent: {}
+[112.486703] (-) TimerEvent: {}
+[112.587721] (-) TimerEvent: {}
+[112.688809] (-) TimerEvent: {}
+[112.792688] (-) TimerEvent: {}
+[112.893570] (-) TimerEvent: {}
+[112.995415] (-) TimerEvent: {}
+[113.097413] (-) TimerEvent: {}
+[113.200466] (-) TimerEvent: {}
+[113.301439] (-) TimerEvent: {}
+[113.402365] (-) TimerEvent: {}
+[113.505430] (-) TimerEvent: {}
+[113.606457] (-) TimerEvent: {}
+[113.709427] (-) TimerEvent: {}
+[113.810365] (-) TimerEvent: {}
+[113.913429] (-) TimerEvent: {}
+[114.014389] (-) TimerEvent: {}
+[114.115365] (-) TimerEvent: {}
+[114.218410] (-) TimerEvent: {}
+[114.319358] (-) TimerEvent: {}
+[114.423453] (-) TimerEvent: {}
+[114.524605] (-) TimerEvent: {}
+[114.625804] (-) TimerEvent: {}
+[114.729438] (-) TimerEvent: {}
+[114.830430] (-) TimerEvent: {}
+[114.934456] (-) TimerEvent: {}
+[115.035415] (-) TimerEvent: {}
+[115.136339] (-) TimerEvent: {}
+[115.237370] (-) TimerEvent: {}
+[115.325418] (me130_pendulum) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable step_sequence_node\x1b[0m\n'}
+[115.337632] (-) TimerEvent: {}
+[115.438621] (-) TimerEvent: {}
+[115.542683] (-) TimerEvent: {}
+[115.643614] (-) TimerEvent: {}
+[115.744577] (-) TimerEvent: {}
+[115.846648] (-) TimerEvent: {}
+[115.950449] (-) TimerEvent: {}
+[116.051379] (-) TimerEvent: {}
+[116.152314] (-) TimerEvent: {}
+[116.253175] (-) TimerEvent: {}
+[116.355435] (-) TimerEvent: {}
+[116.459652] (-) TimerEvent: {}
+[116.560524] (-) TimerEvent: {}
+[116.661448] (-) TimerEvent: {}
+[116.725443] (me130_pendulum) StdoutLine: {'line': b'[ 75%] Built target step_sequence_node\n'}
+[116.764681] (-) TimerEvent: {}
+[116.865792] (-) TimerEvent: {}
+[116.869307] (me130_pendulum) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/keyboard_node.dir/src/keyboard_node.cpp.o\x1b[0m\n'}
+[116.968511] (-) TimerEvent: {}
+[117.069546] (-) TimerEvent: {}
+[117.172680] (-) TimerEvent: {}
+[117.273583] (-) TimerEvent: {}
+[117.377390] (-) TimerEvent: {}
+[117.478174] (-) TimerEvent: {}
+[117.581672] (-) TimerEvent: {}
+[117.682564] (-) TimerEvent: {}
+[117.786391] (-) TimerEvent: {}
+[117.887301] (-) TimerEvent: {}
+[117.988240] (-) TimerEvent: {}
+[118.091699] (-) TimerEvent: {}
+[118.192564] (-) TimerEvent: {}
+[118.293405] (-) TimerEvent: {}
+[118.397831] (-) TimerEvent: {}
+[118.502407] (-) TimerEvent: {}
+[118.603338] (-) TimerEvent: {}
+[118.704563] (-) TimerEvent: {}
+[118.808744] (-) TimerEvent: {}
+[118.909773] (-) TimerEvent: {}
+[119.012718] (-) TimerEvent: {}
+[119.115561] (-) TimerEvent: {}
+[119.219391] (-) TimerEvent: {}
+[119.320290] (-) TimerEvent: {}
+[119.421299] (-) TimerEvent: {}
+[119.523427] (-) TimerEvent: {}
+[119.625423] (-) TimerEvent: {}
+[119.726348] (-) TimerEvent: {}
+[119.829418] (-) TimerEvent: {}
+[119.930613] (-) TimerEvent: {}
+[120.033426] (-) TimerEvent: {}
+[120.134367] (-) TimerEvent: {}
+[120.236413] (-) TimerEvent: {}
+[120.342184] (-) TimerEvent: {}
+[120.446409] (-) TimerEvent: {}
+[120.547411] (-) TimerEvent: {}
+[120.651442] (-) TimerEvent: {}
+[120.752552] (-) TimerEvent: {}
+[120.853475] (-) TimerEvent: {}
+[120.957486] (-) TimerEvent: {}
+[121.058734] (-) TimerEvent: {}
+[121.162060] (-) TimerEvent: {}
+[121.264798] (-) TimerEvent: {}
+[121.368432] (-) TimerEvent: {}
+[121.392719] (me130_pendulum) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pontryagin/me130_lab/ros2_ws/src/me130_pendulum/src/motor_characterization_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<double, double> MotorCharacterizationNode::\x1b[01;32m\x1b[Ksweep\x1b[m\x1b[K(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[121.394166] (me130_pendulum) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pontryagin/me130_lab/ros2_ws/src/me130_pendulum/src/motor_characterization_node.cpp:108:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<double, double>\x1b[m\x1b[K\xe2\x80\x99 when C++17 is enabled changed to match C++14 \x1b]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_base\x07in GCC 10.1\x1b]8;;\x07\n'}
+[121.398433] (me130_pendulum) StderrLine: {'line': b'  108 |     \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[121.399684] (me130_pendulum) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[121.471472] (-) TimerEvent: {}
+[121.572859] (-) TimerEvent: {}
+[121.676430] (-) TimerEvent: {}
+[121.777372] (-) TimerEvent: {}
+[121.878503] (-) TimerEvent: {}
+[121.982539] (-) TimerEvent: {}
+[122.086563] (-) TimerEvent: {}
+[122.188099] (-) TimerEvent: {}
+[122.291433] (-) TimerEvent: {}
+[122.392361] (-) TimerEvent: {}
+[122.494426] (-) TimerEvent: {}
+[122.597431] (-) TimerEvent: {}
+[122.698398] (-) TimerEvent: {}
+[122.801430] (-) TimerEvent: {}
+[122.902364] (-) TimerEvent: {}
+[123.004426] (-) TimerEvent: {}
+[123.107430] (-) TimerEvent: {}
+[123.208404] (-) TimerEvent: {}
+[123.309345] (-) TimerEvent: {}
+[123.411402] (-) TimerEvent: {}
+[123.513404] (-) TimerEvent: {}
+[123.616393] (-) TimerEvent: {}
+[123.717287] (-) TimerEvent: {}
+[123.818667] (-) TimerEvent: {}
+[123.924483] (-) TimerEvent: {}
+[124.025388] (-) TimerEvent: {}
+[124.127431] (-) TimerEvent: {}
+[124.229466] (-) TimerEvent: {}
+[124.332471] (-) TimerEvent: {}
+[124.433908] (-) TimerEvent: {}
+[124.536714] (-) TimerEvent: {}
+[124.642445] (-) TimerEvent: {}
+[124.743434] (-) TimerEvent: {}
+[124.846825] (-) TimerEvent: {}
+[124.950504] (-) TimerEvent: {}
+[125.051773] (-) TimerEvent: {}
+[125.154698] (-) TimerEvent: {}
+[125.255617] (-) TimerEvent: {}
+[125.358727] (-) TimerEvent: {}
+[125.461465] (-) TimerEvent: {}
+[125.562500] (-) TimerEvent: {}
+[125.666454] (-) TimerEvent: {}
+[125.767399] (-) TimerEvent: {}
+[125.868334] (-) TimerEvent: {}
+[125.970419] (-) TimerEvent: {}
+[126.071315] (-) TimerEvent: {}
+[126.175710] (-) TimerEvent: {}
+[126.276754] (-) TimerEvent: {}
+[126.377732] (-) TimerEvent: {}
+[126.479702] (-) TimerEvent: {}
+[126.582704] (-) TimerEvent: {}
+[126.683656] (-) TimerEvent: {}
+[126.786414] (-) TimerEvent: {}
+[126.887388] (-) TimerEvent: {}
+[126.989817] (-) TimerEvent: {}
+[127.092814] (-) TimerEvent: {}
+[127.195699] (-) TimerEvent: {}
+[127.298669] (-) TimerEvent: {}
+[127.402428] (-) TimerEvent: {}
+[127.503379] (-) TimerEvent: {}
+[127.604326] (-) TimerEvent: {}
+[127.707423] (-) TimerEvent: {}
+[127.808378] (-) TimerEvent: {}
+[127.909318] (-) TimerEvent: {}
+[128.013437] (-) TimerEvent: {}
+[128.114466] (-) TimerEvent: {}
+[128.218043] (-) TimerEvent: {}
+[128.319422] (-) TimerEvent: {}
+[128.423729] (-) TimerEvent: {}
+[128.524941] (-) TimerEvent: {}
+[128.629746] (-) TimerEvent: {}
+[128.730815] (-) TimerEvent: {}
+[128.831795] (-) TimerEvent: {}
+[128.934421] (-) TimerEvent: {}
+[129.035391] (-) TimerEvent: {}
+[129.139458] (-) TimerEvent: {}
+[129.240412] (-) TimerEvent: {}
+[129.341491] (-) TimerEvent: {}
+[129.443755] (-) TimerEvent: {}
+[129.545437] (-) TimerEvent: {}
+[129.647450] (-) TimerEvent: {}
+[129.751733] (-) TimerEvent: {}
+[129.852807] (-) TimerEvent: {}
+[129.956444] (-) TimerEvent: {}
+[130.057390] (-) TimerEvent: {}
+[130.158352] (-) TimerEvent: {}
+[130.261746] (-) TimerEvent: {}
+[130.362913] (-) TimerEvent: {}
+[130.466745] (-) TimerEvent: {}
+[130.567816] (-) TimerEvent: {}
+[130.672500] (-) TimerEvent: {}
+[130.773512] (-) TimerEvent: {}
+[130.874491] (-) TimerEvent: {}
+[130.978725] (-) TimerEvent: {}
+[131.079695] (-) TimerEvent: {}
+[131.180590] (-) TimerEvent: {}
+[131.283716] (-) TimerEvent: {}
+[131.387426] (-) TimerEvent: {}
+[131.488409] (-) TimerEvent: {}
+[131.589375] (-) TimerEvent: {}
+[131.691489] (-) TimerEvent: {}
+[131.794427] (-) TimerEvent: {}
+[131.896029] (-) TimerEvent: {}
+[131.996993] (-) TimerEvent: {}
+[132.100129] (-) TimerEvent: {}
+[132.202697] (-) TimerEvent: {}
+[132.305417] (-) TimerEvent: {}
+[132.406391] (-) TimerEvent: {}
+[132.508689] (-) TimerEvent: {}
+[132.611006] (-) TimerEvent: {}
+[132.714071] (-) TimerEvent: {}
+[132.816678] (-) TimerEvent: {}
+[132.918060] (-) TimerEvent: {}
+[133.023419] (-) TimerEvent: {}
+[133.124384] (-) TimerEvent: {}
+[133.228419] (-) TimerEvent: {}
+[133.329386] (-) TimerEvent: {}
+[133.432417] (-) TimerEvent: {}
+[133.533396] (-) TimerEvent: {}
+[133.634322] (-) TimerEvent: {}
+[133.736422] (-) TimerEvent: {}
+[133.839476] (-) TimerEvent: {}
+[133.940417] (-) TimerEvent: {}
+[134.043407] (-) TimerEvent: {}
+[134.144834] (-) TimerEvent: {}
+[134.245707] (-) TimerEvent: {}
+[134.348989] (-) TimerEvent: {}
+[134.453469] (-) TimerEvent: {}
+[134.554394] (-) TimerEvent: {}
+[134.655333] (-) TimerEvent: {}
+[134.757709] (-) TimerEvent: {}
+[134.860710] (-) TimerEvent: {}
+[134.964431] (-) TimerEvent: {}
+[135.065435] (-) TimerEvent: {}
+[135.169501] (-) TimerEvent: {}
+[135.270433] (-) TimerEvent: {}
+[135.371531] (-) TimerEvent: {}
+[135.473454] (-) TimerEvent: {}
+[135.577428] (-) TimerEvent: {}
+[135.678389] (-) TimerEvent: {}
+[135.779407] (-) TimerEvent: {}
+[135.883460] (-) TimerEvent: {}
+[135.984446] (-) TimerEvent: {}
+[136.085447] (-) TimerEvent: {}
+[136.186689] (-) TimerEvent: {}
+[136.291862] (-) TimerEvent: {}
+[136.396550] (-) TimerEvent: {}
+[136.497491] (-) TimerEvent: {}
+[136.601426] (-) TimerEvent: {}
+[136.702397] (-) TimerEvent: {}
+[136.803394] (-) TimerEvent: {}
+[136.907421] (-) TimerEvent: {}
+[137.008461] (-) TimerEvent: {}
+[137.112683] (-) TimerEvent: {}
+[137.213656] (-) TimerEvent: {}
+[137.317498] (-) TimerEvent: {}
+[137.418503] (-) TimerEvent: {}
+[137.519437] (-) TimerEvent: {}
+[137.623433] (-) TimerEvent: {}
+[137.724412] (-) TimerEvent: {}
+[137.827059] (-) TimerEvent: {}
+[137.930776] (-) TimerEvent: {}
+[138.031926] (-) TimerEvent: {}
+[138.135714] (-) TimerEvent: {}
+[138.236799] (-) TimerEvent: {}
+[138.339713] (-) TimerEvent: {}
+[138.443703] (-) TimerEvent: {}
+[138.544680] (-) TimerEvent: {}
+[138.647497] (-) TimerEvent: {}
+[138.750545] (-) TimerEvent: {}
+[138.854788] (-) TimerEvent: {}
+[138.956399] (-) TimerEvent: {}
+[139.060406] (-) TimerEvent: {}
+[139.161392] (-) TimerEvent: {}
+[139.264433] (-) TimerEvent: {}
+[139.365441] (-) TimerEvent: {}
+[139.466424] (-) TimerEvent: {}
+[139.569745] (-) TimerEvent: {}
+[139.670769] (-) TimerEvent: {}
+[139.772733] (-) TimerEvent: {}
+[139.874706] (-) TimerEvent: {}
+[139.976686] (-) TimerEvent: {}
+[140.078759] (-) TimerEvent: {}
+[140.181773] (-) TimerEvent: {}
+[140.284724] (-) TimerEvent: {}
+[140.385749] (-) TimerEvent: {}
+[140.488400] (-) TimerEvent: {}
+[140.589326] (-) TimerEvent: {}
+[140.690721] (-) TimerEvent: {}
+[140.791613] (-) TimerEvent: {}
+[140.892432] (-) TimerEvent: {}
+[140.993448] (-) TimerEvent: {}
+[141.094378] (-) TimerEvent: {}
+[141.195389] (-) TimerEvent: {}
+[141.296418] (-) TimerEvent: {}
+[141.399691] (-) TimerEvent: {}
+[141.500622] (-) TimerEvent: {}
+[141.604688] (-) TimerEvent: {}
+[141.705864] (-) TimerEvent: {}
+[141.808418] (-) TimerEvent: {}
+[141.909426] (-) TimerEvent: {}
+[142.012469] (-) TimerEvent: {}
+[142.114104] (-) TimerEvent: {}
+[142.219122] (-) TimerEvent: {}
+[142.320173] (-) TimerEvent: {}
+[142.421693] (-) TimerEvent: {}
+[142.524071] (-) TimerEvent: {}
+[142.627722] (-) TimerEvent: {}
+[142.728645] (-) TimerEvent: {}
+[142.832077] (-) TimerEvent: {}
+[142.933426] (-) TimerEvent: {}
+[143.035686] (-) TimerEvent: {}
+[143.140701] (-) TimerEvent: {}
+[143.241613] (-) TimerEvent: {}
+[143.342952] (-) TimerEvent: {}
+[143.446486] (-) TimerEvent: {}
+[143.547938] (-) TimerEvent: {}
+[143.650485] (-) TimerEvent: {}
+[143.754985] (-) TimerEvent: {}
+[143.858996] (-) TimerEvent: {}
+[143.963803] (-) TimerEvent: {}
+[144.067498] (-) TimerEvent: {}
+[144.168723] (-) TimerEvent: {}
+[144.271095] (-) TimerEvent: {}
+[144.375832] (-) TimerEvent: {}
+[144.479679] (-) TimerEvent: {}
+[144.580611] (-) TimerEvent: {}
+[144.646573] (me130_pendulum) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable sine_sweep_node\x1b[0m\n'}
+[144.680873] (-) TimerEvent: {}
+[144.783722] (-) TimerEvent: {}
+[144.884947] (-) TimerEvent: {}
+[144.989572] (-) TimerEvent: {}
+[145.094825] (-) TimerEvent: {}
+[145.196079] (-) TimerEvent: {}
+[145.300587] (-) TimerEvent: {}
+[145.402121] (-) TimerEvent: {}
+[145.505459] (-) TimerEvent: {}
+[145.606711] (-) TimerEvent: {}
+[145.711157] (-) TimerEvent: {}
+[145.812416] (-) TimerEvent: {}
+[145.915793] (-) TimerEvent: {}
+[146.016794] (-) TimerEvent: {}
+[146.120463] (-) TimerEvent: {}
+[146.221424] (-) TimerEvent: {}
+[146.322400] (-) TimerEvent: {}
+[146.425423] (-) TimerEvent: {}
+[146.526386] (-) TimerEvent: {}
+[146.630398] (-) TimerEvent: {}
+[146.731185] (-) TimerEvent: {}
+[146.832044] (-) TimerEvent: {}
+[146.932932] (-) TimerEvent: {}
+[147.036431] (me130_pendulum) StdoutLine: {'line': b'[ 85%] Built target sine_sweep_node\n'}
+[147.037487] (-) TimerEvent: {}
+[147.138144] (-) TimerEvent: {}
+[147.239556] (-) TimerEvent: {}
+[147.341142] (-) TimerEvent: {}
+[147.443373] (-) TimerEvent: {}
+[147.544260] (-) TimerEvent: {}
+[147.645089] (-) TimerEvent: {}
+[147.746013] (-) TimerEvent: {}
+[147.846954] (-) TimerEvent: {}
+[147.947905] (-) TimerEvent: {}
+[148.048746] (-) TimerEvent: {}
+[148.149651] (-) TimerEvent: {}
+[148.250486] (-) TimerEvent: {}
+[148.351520] (-) TimerEvent: {}
+[148.453078] (-) TimerEvent: {}
+[148.554023] (-) TimerEvent: {}
+[148.655160] (-) TimerEvent: {}
+[148.756152] (-) TimerEvent: {}
+[148.857547] (-) TimerEvent: {}
+[148.958534] (-) TimerEvent: {}
+[149.059433] (-) TimerEvent: {}
+[149.160358] (-) TimerEvent: {}
+[149.261344] (-) TimerEvent: {}
+[149.362151] (-) TimerEvent: {}
+[149.463598] (-) TimerEvent: {}
+[149.565009] (-) TimerEvent: {}
+[149.674839] (-) TimerEvent: {}
+[149.775756] (-) TimerEvent: {}
+[149.876682] (-) TimerEvent: {}
+[149.977670] (-) TimerEvent: {}
+[150.078633] (-) TimerEvent: {}
+[150.179728] (-) TimerEvent: {}
+[150.281425] (-) TimerEvent: {}
+[150.382690] (-) TimerEvent: {}
+[150.484447] (-) TimerEvent: {}
+[150.585987] (-) TimerEvent: {}
+[150.687187] (-) TimerEvent: {}
+[150.788101] (-) TimerEvent: {}
+[150.889049] (-) TimerEvent: {}
+[150.990179] (-) TimerEvent: {}
+[151.091181] (-) TimerEvent: {}
+[151.192317] (-) TimerEvent: {}
+[151.293273] (-) TimerEvent: {}
+[151.394153] (-) TimerEvent: {}
+[151.497401] (-) TimerEvent: {}
+[151.598286] (-) TimerEvent: {}
+[151.699285] (-) TimerEvent: {}
+[151.800181] (-) TimerEvent: {}
+[151.901182] (-) TimerEvent: {}
+[152.002185] (-) TimerEvent: {}
+[152.103188] (-) TimerEvent: {}
+[152.204269] (-) TimerEvent: {}
+[152.305280] (-) TimerEvent: {}
+[152.406159] (-) TimerEvent: {}
+[152.507243] (-) TimerEvent: {}
+[152.608254] (-) TimerEvent: {}
+[152.709285] (-) TimerEvent: {}
+[152.810241] (-) TimerEvent: {}
+[152.911337] (-) TimerEvent: {}
+[153.012382] (-) TimerEvent: {}
+[153.113384] (-) TimerEvent: {}
+[153.216400] (-) TimerEvent: {}
+[153.319686] (-) TimerEvent: {}
+[153.420768] (-) TimerEvent: {}
+[153.522493] (-) TimerEvent: {}
+[153.623888] (-) TimerEvent: {}
+[153.725313] (-) TimerEvent: {}
+[153.826490] (-) TimerEvent: {}
+[153.927778] (-) TimerEvent: {}
+[154.028947] (-) TimerEvent: {}
+[154.129900] (-) TimerEvent: {}
+[154.231169] (-) TimerEvent: {}
+[154.332303] (-) TimerEvent: {}
+[154.433179] (-) TimerEvent: {}
+[154.534254] (-) TimerEvent: {}
+[154.635256] (-) TimerEvent: {}
+[154.736169] (-) TimerEvent: {}
+[154.837090] (-) TimerEvent: {}
+[154.938100] (-) TimerEvent: {}
+[155.039009] (-) TimerEvent: {}
+[155.140469] (-) TimerEvent: {}
+[155.242591] (-) TimerEvent: {}
+[155.344053] (-) TimerEvent: {}
+[155.444835] (-) TimerEvent: {}
+[155.545621] (-) TimerEvent: {}
+[155.646390] (-) TimerEvent: {}
+[155.747129] (-) TimerEvent: {}
+[155.848167] (-) TimerEvent: {}
+[155.949412] (-) TimerEvent: {}
+[156.050390] (-) TimerEvent: {}
+[156.151183] (-) TimerEvent: {}
+[156.252552] (-) TimerEvent: {}
+[156.353512] (-) TimerEvent: {}
+[156.454410] (-) TimerEvent: {}
+[156.555299] (-) TimerEvent: {}
+[156.656322] (-) TimerEvent: {}
+[156.757114] (-) TimerEvent: {}
+[156.858033] (-) TimerEvent: {}
+[156.958985] (-) TimerEvent: {}
+[157.060022] (-) TimerEvent: {}
+[157.161032] (-) TimerEvent: {}
+[157.262045] (-) TimerEvent: {}
+[157.363000] (-) TimerEvent: {}
+[157.464011] (-) TimerEvent: {}
+[157.564900] (-) TimerEvent: {}
+[157.665855] (-) TimerEvent: {}
+[157.766846] (-) TimerEvent: {}
+[157.867822] (-) TimerEvent: {}
+[157.968942] (-) TimerEvent: {}
+[158.070698] (-) TimerEvent: {}
+[158.171617] (-) TimerEvent: {}
+[158.272559] (-) TimerEvent: {}
+[158.373581] (-) TimerEvent: {}
+[158.474822] (-) TimerEvent: {}
+[158.576283] (-) TimerEvent: {}
+[158.679502] (-) TimerEvent: {}
+[158.731111] (me130_pendulum) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable motor_characterization_node\x1b[0m\n'}
+[158.779755] (-) TimerEvent: {}
+[158.880794] (-) TimerEvent: {}
+[158.983396] (-) TimerEvent: {}
+[159.084322] (-) TimerEvent: {}
+[159.186638] (-) TimerEvent: {}
+[159.290640] (-) TimerEvent: {}
+[159.391618] (-) TimerEvent: {}
+[159.492702] (-) TimerEvent: {}
+[159.595809] (-) TimerEvent: {}
+[159.696996] (-) TimerEvent: {}
+[159.800848] (-) TimerEvent: {}
+[159.902132] (-) TimerEvent: {}
+[160.004431] (-) TimerEvent: {}
+[160.105193] (-) TimerEvent: {}
+[160.208437] (-) TimerEvent: {}
+[160.309410] (-) TimerEvent: {}
+[160.410336] (-) TimerEvent: {}
+[160.512437] (-) TimerEvent: {}
+[160.614388] (-) TimerEvent: {}
+[160.715105] (-) TimerEvent: {}
+[160.815988] (-) TimerEvent: {}
+[160.866571] (me130_pendulum) StdoutLine: {'line': b'[ 90%] Built target motor_characterization_node\n'}
+[160.916247] (-) TimerEvent: {}
+[161.017000] (-) TimerEvent: {}
+[161.117826] (-) TimerEvent: {}
+[161.218642] (-) TimerEvent: {}
+[161.319410] (-) TimerEvent: {}
+[161.420237] (-) TimerEvent: {}
+[161.521003] (-) TimerEvent: {}
+[161.621855] (-) TimerEvent: {}
+[161.722714] (-) TimerEvent: {}
+[161.823524] (-) TimerEvent: {}
+[161.924423] (-) TimerEvent: {}
+[162.025133] (-) TimerEvent: {}
+[162.125911] (-) TimerEvent: {}
+[162.226710] (-) TimerEvent: {}
+[162.327444] (-) TimerEvent: {}
+[162.428172] (-) TimerEvent: {}
+[162.528976] (-) TimerEvent: {}
+[162.629773] (-) TimerEvent: {}
+[162.730614] (-) TimerEvent: {}
+[162.831408] (-) TimerEvent: {}
+[162.932116] (-) TimerEvent: {}
+[163.032860] (-) TimerEvent: {}
+[163.133661] (-) TimerEvent: {}
+[163.234366] (-) TimerEvent: {}
+[163.335119] (-) TimerEvent: {}
+[163.435919] (-) TimerEvent: {}
+[163.536698] (-) TimerEvent: {}
+[163.637421] (-) TimerEvent: {}
+[163.738171] (-) TimerEvent: {}
+[163.838943] (-) TimerEvent: {}
+[163.939696] (-) TimerEvent: {}
+[164.040409] (-) TimerEvent: {}
+[164.141121] (-) TimerEvent: {}
+[164.241891] (-) TimerEvent: {}
+[164.342655] (-) TimerEvent: {}
+[164.443382] (-) TimerEvent: {}
+[164.544119] (-) TimerEvent: {}
+[164.644912] (-) TimerEvent: {}
+[164.745695] (-) TimerEvent: {}
+[164.846340] (-) TimerEvent: {}
+[164.946970] (-) TimerEvent: {}
+[165.047661] (-) TimerEvent: {}
+[165.148386] (-) TimerEvent: {}
+[165.249372] (-) TimerEvent: {}
+[165.350238] (-) TimerEvent: {}
+[165.450950] (-) TimerEvent: {}
+[165.551681] (-) TimerEvent: {}
+[165.652364] (-) TimerEvent: {}
+[165.753088] (-) TimerEvent: {}
+[165.853918] (-) TimerEvent: {}
+[165.954672] (-) TimerEvent: {}
+[166.055383] (-) TimerEvent: {}
+[166.156055] (-) TimerEvent: {}
+[166.256877] (-) TimerEvent: {}
+[166.357597] (-) TimerEvent: {}
+[166.458331] (-) TimerEvent: {}
+[166.559009] (-) TimerEvent: {}
+[166.659772] (-) TimerEvent: {}
+[166.760518] (-) TimerEvent: {}
+[166.861270] (-) TimerEvent: {}
+[166.961983] (-) TimerEvent: {}
+[167.062846] (-) TimerEvent: {}
+[167.164296] (-) TimerEvent: {}
+[167.265393] (-) TimerEvent: {}
+[167.366134] (-) TimerEvent: {}
+[167.467032] (-) TimerEvent: {}
+[167.568079] (-) TimerEvent: {}
+[167.669076] (-) TimerEvent: {}
+[167.770140] (-) TimerEvent: {}
+[167.845640] (me130_pendulum) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable keyboard_node\x1b[0m\n'}
+[167.870369] (-) TimerEvent: {}
+[167.971637] (-) TimerEvent: {}
+[168.072575] (-) TimerEvent: {}
+[168.173516] (-) TimerEvent: {}
+[168.274493] (-) TimerEvent: {}
+[168.375736] (-) TimerEvent: {}
+[168.476755] (-) TimerEvent: {}
+[168.578054] (-) TimerEvent: {}
+[168.679031] (-) TimerEvent: {}
+[168.779956] (-) TimerEvent: {}
+[168.880891] (-) TimerEvent: {}
+[168.981800] (-) TimerEvent: {}
+[169.082705] (-) TimerEvent: {}
+[169.183447] (-) TimerEvent: {}
+[169.284505] (-) TimerEvent: {}
+[169.385871] (-) TimerEvent: {}
+[169.486782] (-) TimerEvent: {}
+[169.587805] (-) TimerEvent: {}
+[169.688624] (-) TimerEvent: {}
+[169.789367] (-) TimerEvent: {}
+[169.806645] (me130_pendulum) StdoutLine: {'line': b'[ 95%] Built target keyboard_node\n'}
+[169.889567] (-) TimerEvent: {}
+[169.990185] (-) TimerEvent: {}
+[170.090846] (-) TimerEvent: {}
+[170.191529] (-) TimerEvent: {}
+[170.292159] (-) TimerEvent: {}
+[170.392802] (-) TimerEvent: {}
+[170.493485] (-) TimerEvent: {}
+[170.594120] (-) TimerEvent: {}
+[170.694800] (-) TimerEvent: {}
+[170.795467] (-) TimerEvent: {}
+[170.896092] (-) TimerEvent: {}
+[170.996819] (-) TimerEvent: {}
+[171.097461] (-) TimerEvent: {}
+[171.198064] (-) TimerEvent: {}
+[171.298686] (-) TimerEvent: {}
+[171.399339] (-) TimerEvent: {}
+[171.499943] (-) TimerEvent: {}
+[171.600593] (-) TimerEvent: {}
+[171.701248] (-) TimerEvent: {}
+[171.801876] (-) TimerEvent: {}
+[171.902578] (-) TimerEvent: {}
+[172.003182] (-) TimerEvent: {}
+[172.103813] (-) TimerEvent: {}
+[172.204477] (-) TimerEvent: {}
+[172.305095] (-) TimerEvent: {}
+[172.405768] (-) TimerEvent: {}
+[172.506398] (-) TimerEvent: {}
+[172.607011] (-) TimerEvent: {}
+[172.707680] (-) TimerEvent: {}
+[172.808325] (-) TimerEvent: {}
+[172.908916] (-) TimerEvent: {}
+[173.009581] (-) TimerEvent: {}
+[173.110180] (-) TimerEvent: {}
+[173.210852] (-) TimerEvent: {}
+[173.311537] (-) TimerEvent: {}
+[173.412161] (-) TimerEvent: {}
+[173.512816] (-) TimerEvent: {}
+[173.613468] (-) TimerEvent: {}
+[173.714085] (-) TimerEvent: {}
+[173.814768] (-) TimerEvent: {}
+[173.915374] (-) TimerEvent: {}
+[174.015972] (-) TimerEvent: {}
+[174.116616] (-) TimerEvent: {}
+[174.217291] (-) TimerEvent: {}
+[174.317915] (-) TimerEvent: {}
+[174.418530] (-) TimerEvent: {}
+[174.519139] (-) TimerEvent: {}
+[174.619801] (-) TimerEvent: {}
+[174.720471] (-) TimerEvent: {}
+[174.821102] (-) TimerEvent: {}
+[174.921752] (-) TimerEvent: {}
+[175.022378] (-) TimerEvent: {}
+[175.122989] (-) TimerEvent: {}
+[175.223667] (-) TimerEvent: {}
+[175.324322] (-) TimerEvent: {}
+[175.424925] (-) TimerEvent: {}
+[175.525627] (-) TimerEvent: {}
+[175.626300] (-) TimerEvent: {}
+[175.726953] (-) TimerEvent: {}
+[175.827807] (-) TimerEvent: {}
+[175.928833] (-) TimerEvent: {}
+[176.029838] (-) TimerEvent: {}
+[176.130916] (-) TimerEvent: {}
+[176.232084] (-) TimerEvent: {}
+[176.333286] (-) TimerEvent: {}
+[176.434334] (-) TimerEvent: {}
+[176.534973] (-) TimerEvent: {}
+[176.635975] (-) TimerEvent: {}
+[176.737063] (-) TimerEvent: {}
+[176.837882] (-) TimerEvent: {}
+[176.938696] (-) TimerEvent: {}
+[177.039326] (-) TimerEvent: {}
+[177.139936] (-) TimerEvent: {}
+[177.240608] (-) TimerEvent: {}
+[177.341311] (-) TimerEvent: {}
+[177.441957] (-) TimerEvent: {}
+[177.542662] (-) TimerEvent: {}
+[177.643344] (-) TimerEvent: {}
+[177.743966] (-) TimerEvent: {}
+[177.844660] (-) TimerEvent: {}
+[177.945320] (-) TimerEvent: {}
+[178.046016] (-) TimerEvent: {}
+[178.146690] (-) TimerEvent: {}
+[178.247349] (-) TimerEvent: {}
+[178.347992] (-) TimerEvent: {}
+[178.448669] (-) TimerEvent: {}
+[178.549331] (-) TimerEvent: {}
+[178.649940] (-) TimerEvent: {}
+[178.750594] (-) TimerEvent: {}
+[178.851249] (-) TimerEvent: {}
+[178.951864] (-) TimerEvent: {}
+[179.052505] (-) TimerEvent: {}
+[179.153154] (-) TimerEvent: {}
+[179.253898] (-) TimerEvent: {}
+[179.354575] (-) TimerEvent: {}
+[179.455290] (-) TimerEvent: {}
+[179.556088] (-) TimerEvent: {}
+[179.657075] (-) TimerEvent: {}
+[179.758271] (-) TimerEvent: {}
+[179.859252] (-) TimerEvent: {}
+[179.959898] (-) TimerEvent: {}
+[180.060623] (-) TimerEvent: {}
+[180.161398] (-) TimerEvent: {}
+[180.262410] (-) TimerEvent: {}
+[180.363878] (-) TimerEvent: {}
+[180.465534] (-) TimerEvent: {}
+[180.566178] (-) TimerEvent: {}
+[180.666901] (-) TimerEvent: {}
+[180.698601] (me130_pendulum) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable logger_node\x1b[0m\n'}
+[180.767092] (-) TimerEvent: {}
+[180.867795] (-) TimerEvent: {}
+[180.968577] (-) TimerEvent: {}
+[181.069472] (-) TimerEvent: {}
+[181.170532] (-) TimerEvent: {}
+[181.271317] (-) TimerEvent: {}
+[181.372280] (-) TimerEvent: {}
+[181.473316] (-) TimerEvent: {}
+[181.574010] (-) TimerEvent: {}
+[181.674788] (-) TimerEvent: {}
+[181.775668] (-) TimerEvent: {}
+[181.876387] (-) TimerEvent: {}
+[181.977092] (-) TimerEvent: {}
+[182.077883] (-) TimerEvent: {}
+[182.178694] (-) TimerEvent: {}
+[182.279374] (-) TimerEvent: {}
+[182.380023] (-) TimerEvent: {}
+[182.480704] (-) TimerEvent: {}
+[182.581338] (-) TimerEvent: {}
+[182.682346] (-) TimerEvent: {}
+[182.783659] (-) TimerEvent: {}
+[182.884192] (-) TimerEvent: {}
+[182.984792] (-) TimerEvent: {}
+[183.085422] (-) TimerEvent: {}
+[183.147315] (me130_pendulum) StdoutLine: {'line': b'[100%] Built target logger_node\n'}
+[183.185613] (-) TimerEvent: {}
+[183.201056] (me130_pendulum) CommandEnded: {'returncode': 0}
+[183.203029] (me130_pendulum) JobProgress: {'identifier': 'me130_pendulum', 'progress': 'install'}
+[183.203913] (me130_pendulum) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pontryagin/me130_lab/ros2_ws/build/me130_pendulum'], 'cwd': '/home/pontryagin/me130_lab/ros2_ws/build/me130_pendulum', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pontryagin', 'SSH_CLIENT': '10.243.37.174 51127 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/pontryagin', 'OLDPWD': '/home/pontryagin', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pontryagin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1001', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pontryagin/me130_lab/ros2_ws/build/me130_pendulum', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.243.37.174 51127 10.247.137.192 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces:/opt/ros/jazzy'}), 'shell': False}
+[183.245701] (me130_pendulum) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[183.246430] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/libme130_hardware.a\n'}
+[183.248874] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/imu_node\n'}
+[183.262960] (me130_pendulum) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/imu_node" to ""\n'}
+[183.263601] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/encoder_node\n'}
+[183.274132] (me130_pendulum) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/encoder_node" to ""\n'}
+[183.274766] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/motor_node\n'}
+[183.285785] (-) TimerEvent: {}
+[183.307131] (me130_pendulum) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/motor_node" to ""\n'}
+[183.307783] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/controller_node\n'}
+[183.346649] (me130_pendulum) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/controller_node" to ""\n'}
+[183.347337] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/step_sequence_node\n'}
+[183.357847] (me130_pendulum) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/step_sequence_node" to ""\n'}
+[183.358495] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/sine_sweep_node\n'}
+[183.385949] (-) TimerEvent: {}
+[183.394683] (me130_pendulum) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/sine_sweep_node" to ""\n'}
+[183.395341] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/motor_characterization_node\n'}
+[183.431456] (me130_pendulum) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/motor_characterization_node" to ""\n'}
+[183.432074] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/logger_node\n'}
+[183.486123] (-) TimerEvent: {}
+[183.500644] (me130_pendulum) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/logger_node" to ""\n'}
+[183.501292] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/keyboard_node\n'}
+[183.538994] (me130_pendulum) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/keyboard_node" to ""\n'}
+[183.539640] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/launch\n'}
+[183.540184] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/launch/step_response.launch.py\n'}
+[183.541247] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/launch/motor_characterization.launch.py\n'}
+[183.542180] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/launch/balance.launch.py\n'}
+[183.543097] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/launch/frequency_response.launch.py\n'}
+[183.544292] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/step_response.py\n'}
+[183.545315] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/freq_response.py\n'}
+[183.546293] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/plot_characterization.py\n'}
+[183.547363] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/include\n'}
+[183.547909] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/include/me130_pendulum\n'}
+[183.548449] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/include/me130_pendulum/hardware.hpp\n'}
+[183.550173] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/ament_index/resource_index/package_run_dependencies/me130_pendulum\n'}
+[183.551768] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/ament_index/resource_index/parent_prefix_path/me130_pendulum\n'}
+[183.553311] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/environment/ament_prefix_path.sh\n'}
+[183.554464] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/environment/ament_prefix_path.dsv\n'}
+[183.555635] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/environment/path.sh\n'}
+[183.556721] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/environment/path.dsv\n'}
+[183.557928] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/local_setup.bash\n'}
+[183.559095] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/local_setup.sh\n'}
+[183.560255] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/local_setup.zsh\n'}
+[183.561358] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/local_setup.dsv\n'}
+[183.562466] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/package.dsv\n'}
+[183.563923] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/ament_index/resource_index/packages/me130_pendulum\n'}
+[183.565368] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/cmake/me130_pendulumConfig.cmake\n'}
+[183.566343] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/cmake/me130_pendulumConfig-version.cmake\n'}
+[183.567512] (me130_pendulum) StdoutLine: {'line': b'-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/package.xml\n'}
+[183.574130] (me130_pendulum) CommandEnded: {'returncode': 0}
+[183.586528] (-) TimerEvent: {}
+[183.632846] (me130_pendulum) JobEnded: {'identifier': 'me130_pendulum', 'rc': 0}
+[183.635958] (-) EventReactorShutdown: {}

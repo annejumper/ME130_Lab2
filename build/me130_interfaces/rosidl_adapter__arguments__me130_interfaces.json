@@ -1,0 +1,8 @@
+{
+  "package_name": "me130_interfaces",
+  "non_idl_tuples": [
+    "/home/pontryagin/me130_lab/ros2_ws/src/me130_interfaces:msg/PendulumAngle.msg",
+    "/home/pontryagin/me130_lab/ros2_ws/src/me130_interfaces:msg/EncoderState.msg",
+    "/home/pontryagin/me130_lab/ros2_ws/src/me130_interfaces:msg/MotorCommand.msg"
+  ]
+}

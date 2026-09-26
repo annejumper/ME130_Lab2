@@ -1,0 +1,6 @@
+msg/EncoderState.idl
+msg/EncoderState.msg
+msg/MotorCommand.idl
+msg/MotorCommand.msg
+msg/PendulumAngle.idl
+msg/PendulumAngle.msg

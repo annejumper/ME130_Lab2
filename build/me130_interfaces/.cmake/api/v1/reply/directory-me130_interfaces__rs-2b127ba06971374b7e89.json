@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "me130_interfaces__rs",
+		"source" : "/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces/me130_interfaces__rs"
+	}
+}
