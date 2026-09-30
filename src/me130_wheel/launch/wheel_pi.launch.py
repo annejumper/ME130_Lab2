@@ -14,7 +14,7 @@ def generate_launch_description():
     return LaunchDescription([
         DeclareLaunchArgument("deadband", default_value="0.025",  # TODO: <--- Change to your deadband value
                               description="from lab 1; 0.0 means no compensation"),
-        DeclareLaunchArgument("motor_sign", default_value="1.0"),  # TODO: <--- Change this if your motor is spinning in the wrong direction
+        DeclareLaunchArgument("motor_sign", default_value="-1.0"),  # TODO: <--- Change this if your motor is spinning in the wrong direction
 
         DeclareLaunchArgument("target_rad_s", default_value="6.28",
                               description="wheel (output shaft) speed setpoint"),

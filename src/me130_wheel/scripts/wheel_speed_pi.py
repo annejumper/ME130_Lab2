@@ -102,7 +102,7 @@ class WheelSpeedPI(Node):
         k_i = 0.05
         e = speed_cmd - speed
         self.integral += e * dt
-        u = -k_p*e - k_i*self.integral # TODO: implement your controller here
+        u = k_p*e + k_i*self.integral # TODO: implement your controller here
         
         return u
     # ------------------------------------------------------------------ #
