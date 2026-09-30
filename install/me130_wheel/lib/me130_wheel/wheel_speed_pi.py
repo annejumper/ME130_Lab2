@@ -101,9 +101,16 @@ class WheelSpeedPI(Node):
         k_d = 0
         k_i = 0.05
         e = speed_cmd - speed
-        self.integral += e * dt
+    
         u = k_p*e + k_i*self.integral # TODO: implement your controller here
+        u_sat = max(-self.max_duty, min(self.max_duty, u))
         
+        if u != u_sat and e/abs(e) == u/abs(u):
+            pass
+        else:
+            self.integral += e * dt
+        
+
         return u
     # ------------------------------------------------------------------ #
 
