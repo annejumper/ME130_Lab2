@@ -1,0 +1,36 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (5.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/pontryagin/me130_lab/ros2_ws/build/me130_wheel
+-- Install configuration: ""
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/lib/me130_wheel/wheel_speed_pi.py
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/launch
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/launch/wheel_pi.launch.py
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/ament_index/resource_index/package_run_dependencies/me130_wheel
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/ament_index/resource_index/parent_prefix_path/me130_wheel
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/environment/ament_prefix_path.sh
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/environment/ament_prefix_path.dsv
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/environment/path.sh
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/environment/path.dsv
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/local_setup.bash
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/local_setup.sh
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/local_setup.zsh
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/local_setup.dsv
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/package.dsv
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/ament_index/resource_index/packages/me130_wheel
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/cmake/me130_wheelConfig.cmake
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/cmake/me130_wheelConfig-version.cmake
+-- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/package.xml

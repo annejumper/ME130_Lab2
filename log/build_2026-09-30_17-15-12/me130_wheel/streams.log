@@ -1,0 +1,42 @@
+[0.055s] Invoking command in '/home/pontryagin/me130_lab/ros2_ws/build/me130_wheel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pontryagin/me130_lab/ros2_ws/src/me130_wheel -DCMAKE_INSTALL_PREFIX=/home/pontryagin/me130_lab/ros2_ws/install/me130_wheel
+[1.078s] -- The C compiler identification is GNU 13.3.0
+[1.961s] -- The CXX compiler identification is GNU 13.3.0
+[2.061s] -- Detecting C compiler ABI info
+[2.576s] -- Detecting C compiler ABI info - done
+[2.613s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.617s] -- Detecting C compile features
+[2.619s] -- Detecting C compile features - done
+[2.673s] -- Detecting CXX compiler ABI info
+[3.239s] -- Detecting CXX compiler ABI info - done
+[3.276s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.277s] -- Detecting CXX compile features
+[3.279s] -- Detecting CXX compile features - done
+[3.310s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.066s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.127s] -- Configuring done (5.0s)
+[5.150s] -- Generating done (0.0s)
+[5.160s] -- Build files have been written to: /home/pontryagin/me130_lab/ros2_ws/build/me130_wheel
+[5.183s] Invoked command in '/home/pontryagin/me130_lab/ros2_ws/build/me130_wheel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pontryagin/me130_lab/ros2_ws/src/me130_wheel -DCMAKE_INSTALL_PREFIX=/home/pontryagin/me130_lab/ros2_ws/install/me130_wheel
+[5.189s] Invoking command in '/home/pontryagin/me130_lab/ros2_ws/build/me130_wheel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pontryagin/me130_lab/ros2_ws/build/me130_wheel -- -j4 -l4
+[5.390s] Invoked command in '/home/pontryagin/me130_lab/ros2_ws/build/me130_wheel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pontryagin/me130_lab/ros2_ws/build/me130_wheel -- -j4 -l4
+[5.398s] Invoking command in '/home/pontryagin/me130_lab/ros2_ws/build/me130_wheel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pontryagin/me130_lab/ros2_ws/build/me130_wheel
+[5.435s] -- Install configuration: ""
+[5.436s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/lib/me130_wheel/wheel_speed_pi.py
+[5.437s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/launch
+[5.438s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/launch/wheel_pi.launch.py
+[5.440s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/ament_index/resource_index/package_run_dependencies/me130_wheel
+[5.441s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/ament_index/resource_index/parent_prefix_path/me130_wheel
+[5.443s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/environment/ament_prefix_path.sh
+[5.444s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/environment/ament_prefix_path.dsv
+[5.446s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/environment/path.sh
+[5.447s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/environment/path.dsv
+[5.448s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/local_setup.bash
+[5.449s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/local_setup.sh
+[5.451s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/local_setup.zsh
+[5.452s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/local_setup.dsv
+[5.453s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/package.dsv
+[5.455s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/ament_index/resource_index/packages/me130_wheel
+[5.456s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/cmake/me130_wheelConfig.cmake
+[5.457s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/cmake/me130_wheelConfig-version.cmake
+[5.459s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_wheel/share/me130_wheel/package.xml
+[5.467s] Invoked command in '/home/pontryagin/me130_lab/ros2_ws/build/me130_wheel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pontryagin/me130_lab/ros2_ws/build/me130_wheel
