@@ -1,0 +1,203 @@
+[0.052s] Invoking command in '/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces -- -j4 -l4
+[0.352s] [  1%] Built target me130_interfaces__rosidl_generator_type_description
+[0.391s] [  3%] Built target me130_interfaces__rs
+[0.469s] [  3%] Built target ament_cmake_python_copy_me130_interfaces
+[0.514s] [  5%] Built target me130_interfaces__cpp
+[0.529s] [ 25%] Built target me130_interfaces__rosidl_generator_c
+[0.731s] [ 34%] Built target me130_interfaces__rosidl_typesupport_introspection_c
+[0.748s] [ 43%] Built target me130_interfaces__rosidl_typesupport_fastrtps_c
+[0.758s] [ 52%] Built target me130_interfaces__rosidl_typesupport_cpp
+[0.973s] [ 61%] Built target me130_interfaces__rosidl_typesupport_c
+[1.015s] [ 70%] Built target me130_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.020s] [ 80%] Built target me130_interfaces__rosidl_typesupport_introspection_cpp
+[1.148s] [ 80%] Built target me130_interfaces
+[1.271s] [ 81%] Built target me130_interfaces__py
+[1.405s] [ 89%] Built target me130_interfaces__rosidl_generator_py
+[1.589s] [ 92%] Built target me130_interfaces_s__rosidl_typesupport_fastrtps_c
+[1.640s] [ 96%] Built target me130_interfaces_s__rosidl_typesupport_introspection_c
+[1.652s] [100%] Built target me130_interfaces_s__rosidl_typesupport_c
+[1.925s] running egg_info
+[2.012s] writing me130_interfaces.egg-info/PKG-INFO
+[2.013s] writing dependency_links to me130_interfaces.egg-info/dependency_links.txt
+[2.016s] writing top-level names to me130_interfaces.egg-info/top_level.txt
+[2.321s] reading manifest file 'me130_interfaces.egg-info/SOURCES.txt'
+[2.324s] writing manifest file 'me130_interfaces.egg-info/SOURCES.txt'
+[2.474s] [100%] Built target ament_cmake_python_build_me130_interfaces_egg
+[2.533s] Invoked command in '/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces -- -j4 -l4
+[2.580s] Invoking command in '/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces
+[2.619s] -- Install configuration: ""
+[2.621s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/ament_index/resource_index/rosidl_interfaces/me130_interfaces
+[2.623s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/msg/PendulumAngle.json
+[2.624s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/msg/EncoderState.json
+[2.624s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/msg/MotorCommand.json
+[2.625s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces
+[2.625s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg
+[2.626s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail
+[2.626s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__description.c
+[2.627s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__functions.h
+[2.627s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__functions.c
+[2.628s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__functions.c
+[2.628s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__type_support.h
+[2.629s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__type_support.c
+[2.629s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__description.c
+[2.630s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__struct.h
+[2.632s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__functions.c
+[2.632s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__type_support.h
+[2.633s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__functions.h
+[2.634s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__type_support.c
+[2.634s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__type_support.c
+[2.635s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__struct.h
+[2.636s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__functions.h
+[2.636s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__struct.h
+[2.637s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__description.c
+[2.638s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__type_support.h
+[2.638s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/motor_command.h
+[2.639s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.640s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/encoder_state.h
+[2.640s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/pendulum_angle.h
+[2.641s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/environment/library_path.sh
+[2.642s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/environment/library_path.dsv
+[2.643s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_generator_c.so
+[2.643s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces
+[2.644s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg
+[2.645s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail
+[2.645s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__rosidl_typesupport_fastrtps_c.h
+[2.646s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__rosidl_typesupport_fastrtps_c.h
+[2.646s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[2.647s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.648s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.648s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces
+[2.649s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg
+[2.649s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail
+[2.650s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[2.651s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__rosidl_typesupport_introspection_c.h
+[2.651s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__rosidl_typesupport_introspection_c.h
+[2.652s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__type_support.c
+[2.653s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__type_support.c
+[2.654s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__type_support.c
+[2.656s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.657s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_typesupport_introspection_c.so
+[2.659s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_typesupport_c.so
+[2.661s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces
+[2.663s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg
+[2.665s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail
+[2.666s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__struct.hpp
+[2.667s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__builder.hpp
+[2.668s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__type_support.hpp
+[2.668s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__traits.hpp
+[2.669s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__struct.hpp
+[2.670s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__traits.hpp
+[2.671s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__traits.hpp
+[2.671s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__type_support.hpp
+[2.672s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__builder.hpp
+[2.672s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__builder.hpp
+[2.673s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__struct.hpp
+[2.674s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__type_support.hpp
+[2.675s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/pendulum_angle.hpp
+[2.675s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/encoder_state.hpp
+[2.676s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.677s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/motor_command.hpp
+[2.677s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces
+[2.678s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg
+[2.678s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail
+[2.679s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.680s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__rosidl_typesupport_fastrtps_cpp.hpp
+[2.681s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/dds_fastrtps
+[2.682s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.682s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.683s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.683s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces
+[2.684s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg
+[2.685s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail
+[2.685s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__rosidl_typesupport_introspection_cpp.hpp
+[2.686s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__type_support.cpp
+[2.687s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__type_support.cpp
+[2.687s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/pendulum_angle__rosidl_typesupport_introspection_cpp.hpp
+[2.688s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[2.688s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/include/me130_interfaces/me130_interfaces/msg/detail/encoder_state__type_support.cpp
+[2.689s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.689s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_typesupport_cpp.so
+[2.690s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/environment/pythonpath.sh
+[2.690s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/environment/pythonpath.dsv
+[2.691s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces-1.0.0-py3.12.egg-info
+[2.692s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces-1.0.0-py3.12.egg-info/dependency_links.txt
+[2.692s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces-1.0.0-py3.12.egg-info/top_level.txt
+[2.692s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces-1.0.0-py3.12.egg-info/SOURCES.txt
+[2.693s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces-1.0.0-py3.12.egg-info/PKG-INFO
+[2.695s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces
+[2.695s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/me130_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[2.696s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/me130_interfaces_s__rosidl_typesupport_c.so
+[2.698s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/me130_interfaces_s__rosidl_typesupport_introspection_c.so
+[2.698s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/_me130_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.699s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/_me130_interfaces_s.ep.rosidl_typesupport_c.c
+[2.700s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/__init__.py
+[2.700s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/msg
+[2.701s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/msg/_encoder_state_s.c
+[2.702s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/msg/_pendulum_angle.py
+[2.708s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/msg/__init__.py
+[2.712s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/msg/_pendulum_angle_s.c
+[2.712s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/msg/_motor_command.py
+[2.713s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/msg/_motor_command_s.c
+[2.713s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/msg/_encoder_state.py
+[2.715s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/_me130_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.912s] Listing '/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces'...
+[2.914s] Listing '/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/msg'...
+[2.944s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/me130_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[2.947s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/me130_interfaces_s__rosidl_typesupport_introspection_c.so
+[2.949s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/python3.12/site-packages/me130_interfaces/me130_interfaces_s__rosidl_typesupport_c.so
+[2.952s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/lib/libme130_interfaces__rosidl_generator_py.so
+[2.954s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/rust
+[2.955s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/rust/src
+[2.955s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/rust/src/msg
+[2.956s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/rust/src/msg/rmw.rs
+[2.957s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/rust/src/lib.rs
+[2.957s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/rust/src/msg.rs
+[2.958s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/rust/Cargo.toml
+[2.958s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/rust/build.rs
+[2.960s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/msg/PendulumAngle.idl
+[2.962s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/msg/EncoderState.idl
+[2.963s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/msg/MotorCommand.idl
+[2.964s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/msg/PendulumAngle.msg
+[2.966s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/msg/EncoderState.msg
+[2.966s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/msg/MotorCommand.msg
+[2.967s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/ament_index/resource_index/package_run_dependencies/me130_interfaces
+[2.968s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/ament_index/resource_index/parent_prefix_path/me130_interfaces
+[2.968s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/environment/ament_prefix_path.sh
+[2.969s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/environment/ament_prefix_path.dsv
+[2.970s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/environment/path.sh
+[2.971s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/environment/path.dsv
+[2.971s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/local_setup.bash
+[2.972s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/local_setup.sh
+[2.973s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/local_setup.zsh
+[2.973s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/local_setup.dsv
+[2.974s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/package.dsv
+[2.975s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/ament_index/resource_index/packages/me130_interfaces
+[2.975s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/export_me130_interfaces__rosidl_generator_cExport.cmake
+[2.976s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/export_me130_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.977s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/export_me130_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.978s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/export_me130_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.978s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/me130_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.979s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/me130_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.980s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/me130_interfaces__rosidl_typesupport_cExport.cmake
+[2.980s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/me130_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.981s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/export_me130_interfaces__rosidl_generator_cppExport.cmake
+[2.982s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/export_me130_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.983s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/export_me130_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.983s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/me130_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.984s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/me130_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.985s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/me130_interfaces__rosidl_typesupport_cppExport.cmake
+[2.986s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/me130_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.987s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/export_me130_interfaces__rosidl_generator_pyExport.cmake
+[2.988s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/export_me130_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.988s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.989s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.990s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.991s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.992s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.992s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.993s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.993s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[2.994s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/me130_interfacesConfig.cmake
+[2.994s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/cmake/me130_interfacesConfig-version.cmake
+[2.995s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces/share/me130_interfaces/package.xml
+[2.998s] Invoked command in '/home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pontryagin/me130_lab/ros2_ws/build/me130_interfaces

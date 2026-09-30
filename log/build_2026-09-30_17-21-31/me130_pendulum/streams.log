@@ -1,0 +1,51 @@
+[0.051s] Invoking command in '/home/pontryagin/me130_lab/ros2_ws/build/me130_pendulum': CMAKE_PREFIX_PATH=/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces:/home/pontryagin/me130_lab/ros2_ws/install/me130_wheel:/home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pontryagin/me130_lab/ros2_ws/build/me130_pendulum -- -j4 -l4
+[0.343s] [ 10%] Built target me130_hardware
+[0.523s] [ 20%] Built target encoder_node
+[0.566s] [ 30%] Built target imu_node
+[0.586s] [ 40%] Built target motor_node
+[0.597s] [ 50%] Built target controller_node
+[0.771s] [ 60%] Built target sine_sweep_node
+[0.778s] [ 70%] Built target step_sequence_node
+[0.820s] [ 80%] Built target motor_characterization_node
+[0.836s] [ 90%] Built target logger_node
+[0.953s] [100%] Built target keyboard_node
+[1.029s] Invoked command in '/home/pontryagin/me130_lab/ros2_ws/build/me130_pendulum' returned '0': CMAKE_PREFIX_PATH=/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces:/home/pontryagin/me130_lab/ros2_ws/install/me130_wheel:/home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pontryagin/me130_lab/ros2_ws/build/me130_pendulum -- -j4 -l4
+[1.038s] Invoking command in '/home/pontryagin/me130_lab/ros2_ws/build/me130_pendulum': CMAKE_PREFIX_PATH=/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces:/home/pontryagin/me130_lab/ros2_ws/install/me130_wheel:/home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pontryagin/me130_lab/ros2_ws/build/me130_pendulum
+[1.077s] -- Install configuration: ""
+[1.080s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/libme130_hardware.a
+[1.080s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/imu_node
+[1.082s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/encoder_node
+[1.084s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/motor_node
+[1.087s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/controller_node
+[1.090s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/step_sequence_node
+[1.092s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/sine_sweep_node
+[1.095s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/motor_characterization_node
+[1.097s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/logger_node
+[1.101s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/keyboard_node
+[1.102s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/launch
+[1.103s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/launch/step_response.launch.py
+[1.103s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/launch/motor_characterization.launch.py
+[1.104s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/launch/balance.launch.py
+[1.104s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/launch/frequency_response.launch.py
+[1.105s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/step_response.py
+[1.105s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/freq_response.py
+[1.106s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/lib/me130_pendulum/plot_characterization.py
+[1.106s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/include
+[1.107s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/include/me130_pendulum
+[1.108s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/include/me130_pendulum/hardware.hpp
+[1.109s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/ament_index/resource_index/package_run_dependencies/me130_pendulum
+[1.110s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/ament_index/resource_index/parent_prefix_path/me130_pendulum
+[1.111s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/environment/ament_prefix_path.sh
+[1.112s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/environment/ament_prefix_path.dsv
+[1.112s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/environment/path.sh
+[1.113s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/environment/path.dsv
+[1.113s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/local_setup.bash
+[1.114s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/local_setup.sh
+[1.114s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/local_setup.zsh
+[1.115s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/local_setup.dsv
+[1.115s] -- Installing: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/package.dsv
+[1.116s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/ament_index/resource_index/packages/me130_pendulum
+[1.117s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/cmake/me130_pendulumConfig.cmake
+[1.117s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/cmake/me130_pendulumConfig-version.cmake
+[1.120s] -- Up-to-date: /home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum/share/me130_pendulum/package.xml
+[1.127s] Invoked command in '/home/pontryagin/me130_lab/ros2_ws/build/me130_pendulum' returned '0': CMAKE_PREFIX_PATH=/home/pontryagin/me130_lab/ros2_ws/install/me130_interfaces:/home/pontryagin/me130_lab/ros2_ws/install/me130_wheel:/home/pontryagin/me130_lab/ros2_ws/install/me130_pendulum:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pontryagin/me130_lab/ros2_ws/build/me130_pendulum

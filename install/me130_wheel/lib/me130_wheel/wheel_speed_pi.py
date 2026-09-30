@@ -96,13 +96,13 @@ class WheelSpeedPI(Node):
         # that is initialized to zero. Changes to this variable persist across 
         # function calls, so it can be used to integrate the error 
         # Update it appropriately for your PI controller
-        self.integral = 0
 
         k_p = 0.02
         k_d = 0
-        k_i = 0
+        k_i = 0.05
         e = speed_cmd - speed
-        u = -k_p*e # TODO: implement your controller here
+        self.integral += e * dt
+        u = -k_p*e - k_i*self.integral # TODO: implement your controller here
         
         return u
     # ------------------------------------------------------------------ #
